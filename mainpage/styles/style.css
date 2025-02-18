@@ -27,6 +27,7 @@ nav img{
     margin: 8px 12px;
     color: white;
     cursor: pointer;
+    font-family: "Merriweather Sans", serif;
 }
 .links::after{
     content: "" ;
@@ -48,6 +49,7 @@ nav img{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    font-family: "Inria Sans", serif;
 }
 .collegename h1{
     font-size: 40px;
