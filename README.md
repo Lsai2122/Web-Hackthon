@@ -10,10 +10,11 @@ Members:
   
   2)Rucharla Ramana - Designer(Figma)
   
-  3)Udata Santhosh - Frontend(html,css)
+  3)Baindla Mouryagna Frontend(html,css,js)
   
-  4)Rohan - Frontend(html,css)
+  4)Udata Santhosh - Frontend(html,css)
   
-  5)Rishi - Frontend(Html,css)
+  5)Rohan - Frontend(html,css)
   
-  6)Baindla Mouryagna Frontend(html,css,js)
+  6)Rishi - Frontend(Html,css)
+  
