@@ -38,7 +38,7 @@ html {
     font-size: 24px;
     padding-right: 50px;
     text-decoration: none;
-    transition: text-decoration 0.3s ease;
+    flex: 1 1 0;
 }
 
 .header:hover {
@@ -126,7 +126,7 @@ html {
     border: 1px solid black;
     border-radius: 6px;
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
-    display:flex;
+    display: flex;
     flex-direction: column;
     height: 340px;
 }
@@ -144,7 +144,7 @@ html {
 
 .main-news {
     left: 29%;
-    height:340px;
+    height: 340px;
 }
 
 .right-news {
@@ -162,7 +162,8 @@ html {
     right: 0.7%;
 }
 
-.right-news-info, .left-news-info {
+.right-news-info,
+.left-news-info {
     display: block;
     justify-content: center;
     align-items: center;
@@ -171,7 +172,7 @@ html {
 
 .campus {
     background-color: #E4E4E4;
-    padding:0% 0% 5% 0%;
+    padding: 0% 0% 5% 0%;
 }
 
 .campus-heading {
@@ -181,27 +182,93 @@ html {
     width: 100%;
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 1%;
+    padding-top: 1%;
 }
 
 .campus-content {
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    padding:0% 1%;
+    padding: 0% 0.7%;
 
 }
 
-.stu-achieve, .fac-achieve {
+.stu-achieve,
+.fac-achieve {
     width: 30%;
     padding: 0% 0.5% 0% 0.5%;
 }
 
 .campus-pulse {
-    width: 40%;
+    width: 45%;
     border-left: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
     padding: 0% 0.5%;
+    display: flex;
+    gap:0.6%;
+    justify-content: space-evenly;
 }
 
-.stu-achieve .view-all{
-    display:inline;
+.stu-achieve .view-all {
+    display: inline;
+
+}
+
+.stu-achieve-heading {
+    font-family: "Instrument Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+    margin-left: 3%;
+}
+
+.stu-achieve-list {
+    margin-top: 5%;
+    padding-left: 8.6%;
+}
+
+.fac-achieve-heading,
+.fac-achieve .view-all {
+    display: inline;
+    margin-left: 3%;
+
+}
+
+.fac-achieve-heading {
+    font-family: "Instrument Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fac-achieve .view-all {
+    margin-left: 3%;
+}
+
+.view-all {
+    background-color: #4C40B4;
+    color: #FFFFFF;
+    border-radius: 3px;
+    height: 30px;
+    width: 76px;
+    cursor: pointer;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
+
+.fac-achieve-list {
+    margin-top: 5%;
+    padding-left: 8.6%;
+}
+
+.campus-content li {
+    font-family: "Kotta One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
 }
