@@ -60,7 +60,6 @@ nav img{
     font-size: 14px;
 
 }
-<<<<<<< HEAD
 .dropped_down{
     background-color: lightblue;
     width: 100px;
@@ -68,8 +67,4 @@ nav img{
     margin-top: -40px;
     position: absolute;
     z-index: 1;
-=======
-a {
-    text-decoration: none;
->>>>>>> f171885987ee4540a96fab1546e7f2c03d066abc
 }
