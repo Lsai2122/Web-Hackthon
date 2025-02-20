@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+.main_logo {
+    aspect-ratio: 321.997/310;
+    width: 100px;
+    margin-left: 5%;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("images/intro.jpg");
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+}
+
+.header {
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 51.935px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding-right: 50px;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.header:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.college_name,
+.college_tip {
+    text-align: center;
+    color: white;
+}
+
+.college_name {
+    font-family: "Merriweather Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.college_tip {
+    font-family: "Inria Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.drop-down-arrow {
+    position: absolute;
+    left: 45%;
+    top: 95%;
+    bottom: 0%;
+    background-color: transparent;
+    border: none;
+}
+
+.drop-down-arrow :hover {
+    filter: brightness(75%);
+}
+
+.news {
+    height: 40px;
+    width: 200px;
+    background-color: #4C40B4;
+    border: none;
+    color: white;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.vertical-bar {
+    padding-left: 10px;
+}
+
+.news :hover {
+    color: #F1B127;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-evenly;
+}
