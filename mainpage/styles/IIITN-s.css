@@ -6,6 +6,7 @@
 body,
 html {
     height: 100%;
+    width: 100%;
 }
 
 
@@ -20,7 +21,7 @@ html {
     flex-wrap: wrap;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
+    width: 98vw;
     background-image: url("images/intro.jpg");
     background-size: cover;
     background-repeat: none;
@@ -43,30 +44,29 @@ html {
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    padding-right: 50px;
     flex-grow: 1;
     flex-basis: min-content;
     padding: 0 20px;
     cursor: pointer;
 }
 
-.header {
+.underline {
     position: relative;
     text-decoration: none;
 }
 
-.header::after {
+.underline::after {
     content: "";
     position: absolute;
     left: 50%;
     right: 50%;
     bottom: -2px;
-    height: 2px;
+    height: 3px;
     transition: left 0.5s ease, right 0.5s ease;
-    background-color: orange;
+    background-color: #f44336;
 }
 
-.header:hover::after {
+.underline:hover::after {
     left: 0;
     right: 0;
 }
@@ -78,8 +78,9 @@ html {
 @keyframes slide {
     100% {
         transform: translateY(20px) scale(0.3);
-        display:none;
+        display: none;
     }
+
     0% {
         transform: translateY(0) scale(1);
     }
