@@ -15,7 +15,7 @@ html {
     margin-left: 5%;
 }
 
-.page-start{
+.page-start {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -28,11 +28,21 @@ html {
     position: relative;
 }
 
+.main-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .main-header {
     display: flex;
     flex-wrap: wrap;
     margin-left: 35px;
     padding-top: 4%;
+}
+
+.iiitn-logo {
+    flex: 3;
 }
 
 .header {
@@ -74,6 +84,7 @@ html {
 
 .introduction {
     animation: slide 1s ease-in reverse forwards;
+    margin-top: 10%;
 }
 
 @keyframes slide {
@@ -83,7 +94,7 @@ html {
     }
 
     0% {
-        transform: translateY(0) scale(1);
+        transform: scale(1);
     }
 }
 
@@ -110,7 +121,7 @@ html {
 
 .drop-down-arrow {
     position: absolute;
-    left: 45%;
+    left: 50%;
     top: 95%;
     bottom: 0%;
     background-color: transparent;
@@ -118,7 +129,22 @@ html {
 }
 
 .drop-down-arrow :hover {
-    filter: brightness(75%);
+    filter: brightness(100%);
+    animation: shake 0.5s ease-in 3;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    50% {
+        transform: translateY(-1vh);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .news {
@@ -147,8 +173,6 @@ html {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
-    display: flex;
-    justify-items: space-evenly;
     align-items: center;
     gap: 10px;
     height: 340px;
@@ -166,6 +190,8 @@ html {
     display: flex;
     flex-direction: column;
     height: 340px;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
 }
 
 .left-news img,
@@ -180,7 +206,6 @@ html {
 }
 
 .main-news {
-    left: 29%;
     height: 340px;
 }
 
@@ -201,10 +226,11 @@ html {
 
 .right-news-info,
 .left-news-info {
-    display: block;
+    display: inline-block;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex: 1;
+    padding: 0 1%;
 }
 
 .campus {
