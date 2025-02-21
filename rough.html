@@ -66,20 +66,60 @@
             /* Triangle arrow color */
             transform: translateX(-50%);
         }
+
+        .a {
+            display: inline-block;
+            padding: 20px;
+            background: #e0e0e0;
+            position: relative;
+            /* Define this element as an anchor named "hover-anchor" */
+            anchor-name: active-anchor;
+            cursor: pointer;
+        }
+
+        .b {
+            /* Hide the element by default */
+            display: none;
+            position: absolute;
+            /* Use the anchor to position the element */
+            position-anchor: active-anchor;
+            top: anchor(bottom);
+            left: anchor(center);
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            white-space: nowrap;
+            border-radius: 4px;
+            margin-top: 5px;
+            transform: translateX(-50%);
+        }
+
+        /* On hover over .a, display .b */
+        .a:hover .b {
+            display: block;
+        }
+
+        .b:hover {
+            display: block;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item3">Item 3</div>
+        <div class="item4">Item 4</div>
 
     </div>
     <div class="underline-text">Example Text</div>
-
-
+    <div class="a">
+        Click on me!
+        <div class="b">
+            I'm positioned using an anchor!
+        </div>
+    </div>
 </body>
 
 </html>

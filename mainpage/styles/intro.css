@@ -47,6 +47,29 @@ html {
     text-decoration: underline;
 }
 
+.home {
+    position: relative;
+    anchor-name: home-anchor;
+    cursor: pointer;
+}
+
+.header-home {
+    display: none;
+    position: absolute;
+    top: anchor(bottom);
+    left: anchor(center);
+    height: 500px;
+    background-color: lightblue;
+}
+
+.home:hover .header-home {
+    display: block;
+}
+
+.header-home:hover {
+    display: block;
+}
+
 .college_name,
 .college_tip {
     text-align: center;
