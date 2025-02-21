@@ -189,9 +189,10 @@ html {
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
-    height: 340px;
+    height: 342px;
     flex-wrap: wrap;
     background-color: #FFFFFF;
+    overflow: hidden;
 }
 
 .left-news img,
@@ -205,8 +206,14 @@ html {
     width: 316.997px;
 }
 
+.main-news img {
+    height:342px;
+    object-position: center;
+}
+
 .main-news {
-    height: 340px;
+width:600px;
+
 }
 
 .right-news {
