@@ -38,7 +38,8 @@ html {
     font-size: 24px;
     padding-right: 50px;
     text-decoration: none;
-    flex: 1 1 0;
+    flex-grow: 1;
+    flex-basis: 200;
 }
 
 .header:hover {
@@ -205,7 +206,7 @@ html {
     border-right: 3px solid #FFFFFF;
     padding: 0% 0.5%;
     display: flex;
-    gap:0.6%;
+    gap: 0.6%;
     justify-content: space-evenly;
 }
 
@@ -271,4 +272,114 @@ html {
     font-weight: 400;
     font-style: normal;
     font-size: 13px;
+}
+
+.event-head {
+    text-align: center;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #483E9C;
+    position: relative;
+    margin: 2% 0 4% 0;
+}
+
+.event-head::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 5px;
+    background-color: #483E9C;
+}
+
+.event-head::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -14px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #3f3098;
+    transform: translateX(-50%);
+}
+
+.eve-1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.eve-1 img{
+    border-radius: 12px;
+}
+
+.eve-1-contain {
+    position:relative;
+    z-index: 1;
+}
+
+.eve-1-text-contain-1 {
+    padding-left:1%;
+    position: absolute;
+    right: 1px;
+    bottom: 10%;
+    background-color: #4A4A4A;
+    z-index:2;
+    display:flex;
+    padding: 0.5% 2%;
+    border-radius: 3px;
+}
+
+.eve-1-text-1 {
+    z-index:3;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.eve-1-text-contain-2 {
+    padding-left:1%;
+    position: absolute;
+    left: 1px;
+    bottom: 1%;
+    background-color: #4A4A4A;
+    z-index:2;
+    display:flex;
+    padding: 0.5% 2%;
+    border-radius: 3px;
+    border-bottom-left-radius: 12px;
+}
+
+.eve-1-text-2 {
+    z-index:3;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.eve-2_3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dd-arrow-contain {
+    margin-top: 6%;
+    position: relative;
+}
+
+.drop-down-arrow-dark {
+    aspect-ratio: 71/48;
+    width: 2%;
+    position:absolute;
+    left:50%;
 }
