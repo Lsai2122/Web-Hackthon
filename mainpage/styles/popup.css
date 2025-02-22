@@ -3,14 +3,54 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    background-color: rgb(201,200,200);
-    margin-top: 5px;
+    width: 125px;
+    margin-left: 34%;
+    margin-top: -4px;
 }
+
+.department-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-top: -4px;
+    margin-left: 42%;
+}
+
+.students-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-left: 53%;
+    margin-top: -4px;
+}
+
 .about-button {
-    background-color: transparent;
+    background-color: rgb(201,200,200);
     border: none;
     padding: 8px 0 5px 6px;
     border-bottom: 1px solid black;
     width: 125px;
+    text-align: start;
+}
+
+.department-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
+    text-align: start;
+}
+
+.students-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
     text-align: start;
 }
