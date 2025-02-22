@@ -20,12 +20,10 @@ function VerticalBarAnimation()
     if (vbarStatus==false)
     {
         vbar.classList.add("vertical-bar-after");
-        vbar.classList.add("vertical-bar-after1")
         vbarStatus=true
     }
     else{
         vbar.classList.remove("vertical-bar-after");
-        vbar.classList.remove("vertical-bar-after1")
         vbarStatus=false
     }
 }
