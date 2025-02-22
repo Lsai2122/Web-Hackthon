@@ -31,9 +31,10 @@ function VerticalBarAnimation()
 
 function SubTOMain(tracker)
 {
+    var main = document.querySelector(".main-news")
     if(mainnewstracker==="left")
     {
-        var main = document.querySelector(".left-news")
+        main.classList.add("left-news")
         if(tracker==="middle")
         {
             var sub = document.querySelector(".middle-news")
@@ -45,7 +46,7 @@ function SubTOMain(tracker)
     }
     else if(mainnewstracker==="middle")
     {
-        var main = document.querySelector(".middle-news")
+        main.classList.add("left-news")
         if(tracker==="left")
         {
             var sub = document.querySelector(".left-news")
@@ -57,7 +58,7 @@ function SubTOMain(tracker)
     }
     else if(mainnewstracker==="right")
     {
-        var main = document.querySelector(".right-news")
+        main.classList.add("left-news")
         {
             if(tracker==="left")
             {
@@ -69,4 +70,6 @@ function SubTOMain(tracker)
             }
         }
     }
+    main.classList.remove("main-news");
+    sub.classList.add("main-news")
 }
