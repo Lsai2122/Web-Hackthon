@@ -14,7 +14,7 @@ Members:
   
   4)Udata Santhosh - Frontend(html,css)
   
-  5)Rohan - Frontend(html,css)
+  5)Deekonda Rohan - Frontend(html,css)
   
   6)Rishi - Frontend(Html,css)
   
