@@ -169,6 +169,11 @@ html {
     padding-left: 10px;
 }
 
+.vertical-bar-after{
+    color: orange;
+    transition: color 0.3s ease;
+}
+
 .news-container {
     display: flex;
     justify-content: space-evenly;
