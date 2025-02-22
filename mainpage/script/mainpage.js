@@ -34,7 +34,7 @@ function SubTOMain(tracker)
     var main = document.querySelector(".main-news")
     if(mainnewstracker==="left")
     {
-        main.classList.add("left-news")-
+        main.classList.add("left-news")
         if(tracker==="middle")
         {
             var sub = document.querySelector(".middle-news")
