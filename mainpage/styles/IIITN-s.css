@@ -248,6 +248,41 @@ html {
     font-size: 20px;
 }
 
+.main-news {
+    position: relative;
+    width: 600px;
+    height: 339.6px;
+}
+
+.main-news-img {
+    object-fit: cover;
+    overflow: hidden;
+    height: 339.6px;
+    width: 600px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.main-info-contain {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(161, 161, 161, 0.45);
+    border-bottom-left-radius: 6px;
+    width:40%;
+}
+
+.main-info {
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding: 4% 5%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
+}
 .news-arrow-left {
     position: absolute;
     left: 0.7%;
