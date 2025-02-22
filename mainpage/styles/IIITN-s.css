@@ -28,13 +28,13 @@ html {
     position: relative;
 }
 
-.middle-head {
+.main-head {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.middle-header {
+.main-header {
     display: flex;
     flex-wrap: wrap;
     margin-left: 35px;
