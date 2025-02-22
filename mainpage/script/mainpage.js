@@ -339,3 +339,20 @@ function SubTOMain(tracker)
     }
     mainnewstracker=tracker;
 }
+function LeftPrev()
+{
+    count--;
+    if(count==0)
+    {
+        document.querySelector(".news-arrow-left").innerHTML=""
+    }
+}
+function RightNext()
+{
+    count++;
+    if(count==1)
+    {
+        document.querySelector(".news-arrow-left").innerHTML="<img src='images/news-arrow-left.png'>"
+    }
+    
+}
