@@ -478,6 +478,109 @@ html {
 .eve-2_3 {
     display: flex;
     justify-content: space-around;
+
+}
+
+.eve-2-contain {
+    position: relative;
+    z-index: 1;
+}
+
+.eve-2-contain img{
+    border-radius: 12px;
+}
+
+.eve-2-text-contain-1 {
+    padding-left: 1%;
+    position: absolute;
+    right: 1px;
+    bottom: 10%;
+    background-color: rgba(108,80,80,0.46);
+    z-index: 2;
+    display: flex;
+    padding: 0.5% 2%;
+    border-radius: 3px;
+}
+
+.eve-2-text-1 {
+    z-index: 3;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.eve-2-text-contain-2 {
+    position: absolute;
+    left: 1px;
+    bottom: 1%;
+    background-color: rgba(108,80,80,0.46);
+    z-index: 2;
+    display: flex;
+    padding: 0.5% 2%;
+    border-radius: 3px;
+    border-bottom-left-radius: 12px;
+}
+
+.eve-2-text-2 {
+    z-index: 3;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.eve-3-contain {
+    position: relative;
+    z-index: 1;
+}
+
+.eve-3-contain img{
+    border-radius: 12px;
+}
+
+.eve-3-text-contain-1 {
+    padding-left: 1%;
+    position: absolute;
+    right: 1px;
+    bottom: 10%;
+    background-color: rgba(108,80,80,0.46);
+    z-index: 2;
+    display: flex;
+    padding: 0.5% 2%;
+    border-radius: 3px;
+}
+
+.eve-3-text-1 {
+    z-index: 3;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.eve-3-text-contain-2 {
+    position: absolute;
+    left: 1px;
+    bottom: 1%;
+    background-color: rgba(108,80,80,0.46);
+    z-index: 2;
+    display: flex;
+    padding: 0.5% 2%;
+    border-radius: 3px;
+    border-bottom-left-radius: 12px;
+}
+
+.eve-3-text-2 {
+    z-index: 3;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 .dd-arrow-contain {
