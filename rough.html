@@ -11,53 +11,24 @@
         rel="stylesheet">
     <title>Document</title>
     <style>
-        .main-contain {
-            position: relative;
-            width: 600px;
-            height: 339.6px;
-        }
-
-        .main-contain-img {
-            object-fit: cover;
-            overflow: hidden;
-            height: 339.6px;
-            width: 600px;
-            border: 1px solid black;
-            box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
-            border-radius: 6px;
-        }
-
-        .main-info-contain {
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            background-color: rgba(161, 161, 161, 0.45);
-            border-bottom-left-radius: 6px;
-            width:40%;
-        }
-
-        .main-info {
-            font-family: "Inria Sans", serif;
-            font-weight: 700;
-            font-style: normal;
-            font-size: 20px;
-            color: white;
-            padding: 4% 5%;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
-        }
     </style>
 </head>
 
 <body>
-    <div class="main-contain">
-        <img class="main-contain-img" src="mainpage/images/cropped-main-news.png">
-        <div class="main-info-contain">
-            <div class="main-info">
-                campaign of Hathipoan
-            </div>
-        </div>
+    <button class="hello">hello</button>
+    <div class="hi">
+        <div class="mm"></div>
     </div>
+    <script>
+        document.querySelector('.hello').addEventListener('click',()=> {
+            const about=`<button>Institute Profile</button>
+            <button>Facilities</button>
+            <button>MoU</button>
+            <button>Statute</button>
+            <button>Annual Report</button>`;
+            document.querySelector('.mm').innerHTML=about;
+        });
+    </script>
 </body>
 
 </html>

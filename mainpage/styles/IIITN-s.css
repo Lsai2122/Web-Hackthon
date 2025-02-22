@@ -60,6 +60,11 @@ html {
     cursor: pointer;
 }
 
+.sub-header {
+    display: flex;
+    flex-direction: row;
+}
+
 .underline {
     position: relative;
     text-decoration: none;
