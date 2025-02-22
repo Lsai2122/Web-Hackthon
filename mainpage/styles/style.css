@@ -89,7 +89,7 @@ nav img{
 .camp-col{
     flex-basis: 31%;
     padding: 13px;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -162,29 +162,22 @@ nav img{
     border-radius: 10px;
     width: 100%;
 }
-.director{
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    ;
-}
 .director-row{
-    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex; 
+    flex-direction: row;
+    gap: 5px;
 }
 .director-colone{
-    border: 3px solid black;
-    padding: 10px;
-    margin: 20px;
+    margin: 10px;
+    margin-left: 200px;
 }
 .director-coltwo{
-    border: 3px solid black;
-    padding: 10px;
-}
-
-.director-col img{
-    width: 100%;
-    background-size: contain;
+    margin-left: 120px;
+    padding-top: 60px;
+    padding-right: 10px; 
+    font-size: xx-large;
 }
 footer{
     background-color: #0655a5;
@@ -201,7 +194,6 @@ footer .row{
 .footer-col{
     padding: 10px;
     flex-basis: 31%;
-    border: solid 3px;
     margin: 15px;
 }
 footer h5{
@@ -223,7 +215,7 @@ footer a{
 .social-media{
     display: flex;
     position: absolute;
-    bottom: 35px;
+    bottom: 55px;
     right: 30px;
 }
 .social{
