@@ -174,7 +174,6 @@ html {
 
 .news-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     vertical-align: middle;
     margin-top: 30px;
@@ -194,13 +193,9 @@ html {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: #FFFFFF;
     height: 338px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    min-width: 200px;
-
+    transition: width 0.5s ease-in;
 }
 
 .left-news-img,
@@ -208,8 +203,8 @@ html {
 .right-news-img {
     border-radius: 6px;
     width: 316.987px;
-    display: block;
     height: 195px;
+    transition: width 0.5s ease-in,height 0.5s ease-in;
 }
 
 .left-news {
@@ -227,9 +222,9 @@ html {
 }
 
 
-.right-news-info,
-.middle-news-info,
-.left-news-info {
+.right-info,
+.middle-info,
+.left-info {
     display: inline-block;
     justify-content: center;
     align-content: center;
@@ -240,15 +235,14 @@ html {
     font-style: normal;
     font-size: 20px;
 }
-
 .main-news {
-    position: relative;
+    position: absolute;
+    top: 5%;
     width: 600px;
     height: 339.6px;
 }
 
 .main-news-img {
-    object-fit: cover;
     overflow: hidden;
     height: 339.6px;
     width: 600px;
@@ -259,11 +253,13 @@ html {
 
 .main-info-contain {
     position: absolute;
-    left: 0;
-    bottom: 0;
+    z-index: 10;
     background-color: rgba(161, 161, 161, 0.45);
     border-bottom-left-radius: 6px;
     width:40%;
+    bottom: 0;
+    left: 0;
+    transition: background-color 1s ease-in;
 }
 
 .main-info {
@@ -273,6 +269,8 @@ html {
     font-size: 20px;
     color: white;
     padding: 4% 5%;
+    overflow: hidden;
+    white-space: nowrap;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
 }
