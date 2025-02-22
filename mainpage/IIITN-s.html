@@ -18,7 +18,7 @@
     complete the text styles in headlines page
 
 -->
-    <script src = "script/mainpage.js"></script>
+    <script src = "script/mainpage.js">console.log(document.querySelector(".left-info").innerHTML)</script>
     <div class="page-start">
         <header class="main-head">
             <div class="iiitn-logo">
@@ -85,26 +85,24 @@
             <div class="news" onmouseenter="VerticalBarAnimation()" onmouseleave="VerticalBarAnimation()"><span>Head-Lines</span><span class="vertical-bar">&#124;</span></div>
             <div class="news-container">
                 <div><img class="news-arrow-left" src="images/news-arrow-left.png"></div>
-                <div class="left-news">
+                <div class="left-news"  onmouseenter="SubTOMain('left')">
                         <img class="left-news-img" src="images/side-news.png">
-                    <div class="left-">
-                        <p class="left-news-info" onmouseenter="SubTOMain('left')">
-                            Team Null pointer of IIIT Nagpur takes home the prize of Smart India Hackthon
+                    <div class="left-info-contain">
+                        <p class="left-info">
+                            Team Null pointer takes home the prize
                         </p>
                     </div>
                 </div>
-                <div class="middle-news" onmouseenter="SubTOMain('middle')">
-                    <img class="middle-news-img" src="images/cropped-main-news.png">
-                    <div class="middle-news-info-contain">
-                        <p class="middle-news-info">Campaign For Elimination of Hathipoan</p>
+                <div class="main-news middle-news" onmouseenter="SubTOMain('middle')">
+                    <img class="main-news-img middle-news-img" src="images/cropped-main-news.png">
+                    <div class="main-info-contain middle-info-contain">
+                        <p class="main-info middle-info">Campaign For Elimination of Hathipoan</p>
                     </div>
                 </div>
                 <div class="right-news" onmouseenter="SubTOMain('right')">
-                    <div>
-                        <img src="images/side-news.png">
-                    </div>
-                    <div>
-                        <p class="left-news-info">
+                        <img class="right-news-img" src="images/side-news.png">
+                    <div class="right-info-contain">
+                        <p class="right-info">
                             Team Null pointer of IIIT Nagpur takes home the prize of Smart India Hackthon
                         </p>
                     </div>

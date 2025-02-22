@@ -1,5 +1,5 @@
-let vbarStatus=false;
-let mainnewstracker = "middle";
+var vbarStatus=false;
+var mainnewstracker = "middle";
 
 document.querySelector('.about').addEventListener('click',() => {
     const about=`
@@ -31,49 +31,28 @@ function VerticalBarAnimation()
 
 function SubTOMain(tracker)
 {
-    var main = document.querySelector(".main-news")
-    if(mainnewstracker==="left")
+    if(tracker!=mainnewstracker)
     {
-        main.classList.add("left-news")
-        if(tracker==="middle")
-        {
-            var sub = document.querySelector(".middle-news")
-            var subinfo = document.querySelector(".middle-news-info")
-            var subinfocontain = document.querySelector(".middle-news-contain")
-            var submain = document.querySelector(".middle-news-img")
-
-        }
-        else if(tracker==="right")
-        {
-            var sub = document.querySelector("left-news");
-        }
+        var main = document.querySelector(".main-news")
+        var maininfo = document.querySelector(".main-info")
+        var maininfoconatain = document.querySelector(".main-info-contain")
+        var mainimg = document.querySelector(".main-news-img")
+        var sub = document.querySelector("."+tracker+"-news")
+        var subimg = document.querySelector("."+tracker+"-news-img")
+        var subinfocontain = document.querySelector("."+tracker+"-info-contain")
+        var subinfo = document.querySelector("."+tracker+"-info")
+        temp = subinfo.innerHTML
+        subinfo.innerHTML = ""
+        setTimeout(subinfo.innerHTML=temp,0.5)
+        maininfo.classList.remove("main-info")
+        mainimg.classList.remove("main-news-img")
+        maininfoconatain.classList.remove('main-info-contain')
+        main.classList.remove("main-news")
+        subinfo.classList.add("main-info")
+        subinfocontain.classList.add("main-info-contain")
+        subimg.classList.add("main-news-img")
+        sub.classList.add("main-news")
+        mainnewstracker=tracker;
     }
-    else if(mainnewstracker==="middle")
-    {
-        main.classList.add("left-news")
-        if(tracker==="left")
-        {
-            var sub = document.querySelector(".left-news")
-        }
-        else if(tracker==="right")
-        {
-            var sub = document.querySelector(".right-news");
-        }
-    }
-    else if(mainnewstracker==="right")
-    {
-        main.classList.add("left-news")
-        {
-            if(tracker==="left")
-            {
-                var sub = document.querySelector(".left-news")
-            }
-            else if(tracker==="middle")
-            {
-                var sub = document.querySelector(".middle-news");
-            }
-        }
-    }
-    main.classList.remove("main-news");
-    sub.classList.add("main-news")
+    console.log(mainnewstracker)
 }
