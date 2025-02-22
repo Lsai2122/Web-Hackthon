@@ -4,25 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Document</title>
     <style>
-        .a {
-            height:50px;
-            width: 50px;
-            box-shadow: -2px 2px 0px rgba(0,0,0,0.5);
-            background-color: lightpink;
+        .main-contain {
+            position: relative;
+            width: 600px;
+            height: 339.6px;
         }
 
-        .a:active{
-            transform: translate(-2px,2px);
-            box-shadow: none;
+        .main-contain img {
+            object-fit: cover;
+            overflow: hidden;
+            height: 339.6px;
+            width: 600px;
+            border: 1px solid black;
+            box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+        }
+
+        .main-info-contain {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: rgba(161, 161, 161, 0.45);
+            border-bottom-left-radius: 6px;
+            width:40%;
+        }
+
+        .main-info {
+            font-family: "Inria Sans", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 20px;
+            color: white;
+            padding: 4% 5%;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
 
 <body>
-    <div class="a">
-        Hello
+    <div class="main-contain">
+        <img src="mainpage/images/cropped-main-news.png">
+        <div class="main-info-contain">
+            <div class="main-info">
+                campaign of Hathipoan
+            </div>
+        </div>
     </div>
 </body>
 
