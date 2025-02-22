@@ -1,4 +1,16 @@
 .about-style {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: rgb(201,200,200);
+    margin-top: 5px;
+}
+.about-button {
+    background-color: transparent;
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 125px;
+    text-align: start;
 }
