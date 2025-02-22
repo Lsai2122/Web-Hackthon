@@ -59,22 +59,25 @@ nav img{
 .collegename p{
     font-weight: 100;
     margin:10px 0 40px;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .campuslife{
+    font-family: "Inria Sans", serif;
     background-color: #efefef;
     padding-bottom: 5%;
     padding-top: 40px;
     margin-bottom: 0px;
 }
 .campuslife h1{
-    font-size: 30px;
-    margin: 25px;
+    font-size: 64px;
+    margin: 20px;
+    font-family: "Inria Sans", serif;
     text-align: center;
 } 
 .campuslife h2{
     text-align: left;
+    font-size: 24px;
     padding-top: 2px;
 }
 
@@ -95,6 +98,70 @@ nav img{
     width: 100%;
     border-radius: 10px;
 }
+.research{
+    padding-top: 30px;
+    background-color: beige;
+    padding-bottom: 30px;
+    font-family: "Inria Sans", serif;
+}
+.research h1{
+    width: 80%;
+    font-size:64px ;
+    font-family: "Inria Sans", serif;
+    margin: 70px auto;
+    text-align: center;
+}
+.rowone{
+
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.rowone .colone{
+    padding: 10px;
+    flex-basis: 150%;
+    margin-right: 15px;
+}
+.rowone .coltwo{
+    padding: 40px;
+    flex-basis: 150%;
+    text-align: left;
+
+}
+.colone img{
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 100%;
+}
+.rowtwo{
+    width: 80%;
+    margin: 10px auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.rowtwo .colone{
+    padding: 40px;
+    flex-basis: 150%;
+    text-align: left;
+}
+.research h2{
+    font-size: 43px;
+    margin-bottom: 5px;
+}
+.research p{
+    font-size: 34px;
+}
+
+.rowtwo .coltwo{
+    padding: 10px;
+    flex-basis: 150%;
+}
+.coltwo img{
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 100%;
+}
 .director{
     width: 80%;
     margin: auto;
@@ -106,28 +173,26 @@ nav img{
     display: flex;
 }
 .director-colone{
-    flex-basis: 48%;
     border: 3px solid black;
     padding: 10px;
     margin: 20px;
 }
 .director-coltwo{
-    flex-basis: 54%;
     border: 3px solid black;
     padding: 10px;
 }
 
-
 .director-col img{
     width: 100%;
-    
-
+    background-size: contain;
 }
 footer{
     background-color: #0655a5;
     padding: 30px 0;
 }
 footer .row{
+    width: 80%;
+    margin: auto;
     margin-top: 0px;
     bottom: 0;
     display: flex;
@@ -141,33 +206,54 @@ footer .row{
 }
 footer h5{
     margin: 10px;
-    font-size: larger;
+    font-size:24px;
     text-decoration: underline;
     margin-bottom: 8px;
+    font-family: "Inria Sans", serif;
 }
 footer a{
     color: white;
     text-decoration: none;
 }
 .footer-col hr{
-    border-color: black;
+    margin-left: 20px;
+    border-color: rgba(0,0,0,0.6);
     width: 60%;
 }
 .social-media{
     display: flex;
     position: absolute;
-    bottom: 25px;
+    bottom: 35px;
     right: 30px;
 }
 .social{
     margin: 8px;
 }
 .imp-link{
+    padding: 10px 10px 10px 20px;
     margin: 10px 7px 5px;
+    font-size: 20px;
+    font-family: "Inria Sans", serif;
 }
 .imp-link::before{
+    font-size: 29px;
     content: "\2022";
 }
+.qui-links{
+    padding: 10px 10px 10px 20px;
+    margin: 10px 7px 5px;
+    font-size: 20px;
+    font-family: "Inria Sans", serif;
+}
 .qui-links::before{
+    font-size: 29px;
     content: "\2022";
+}
+.contact{
+    font-family: "Strait", serif;
+}
+.contact-slide p{
+    font-size: 15px;
+    font-family: "Strait", serif;
+    font-family: "Inria Sans", serif;
 }
