@@ -1,4 +1,4 @@
-var vbarStatus=false;
+vbarStatus=false;
 var mainnewstracker = "middle";
 
 let aboutPopup=document.querySelector('.about-popup');
@@ -115,7 +115,10 @@ function SubTOMain(tracker)
         var subinfo = document.querySelector("."+tracker+"-info")
         temp = subinfo.innerHTML
         subinfo.innerHTML = ""
-        setTimeout(subinfo.innerHTML=temp,0.5)
+        setTimeout(function a(subinfo)
+        {
+            subinfo.innerHTML = temp;
+        },0.5)
         maininfo.classList.remove("main-info")
         mainimg.classList.remove("main-news-img")
         maininfoconatain.classList.remove('main-info-contain')
