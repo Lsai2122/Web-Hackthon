@@ -1,5 +1,7 @@
 vbarStatus=false;
 var mainnewstracker = "middle";
+count =0;
+
 
 let aboutPopup=document.querySelector('.about-popup');
 let departmentPopup=document.querySelector('.department-popup');
@@ -133,7 +135,7 @@ function SubTOMain(tracker)
                 a.classList.add("ml");
                 setTimeout(()=>{
                         a.classList.remove("ml")
-                },500);
+                },250);
             }
             else if(window.getComputedStyle(b).marginRight==="300px")
             {
@@ -163,7 +165,7 @@ function SubTOMain(tracker)
             subinfocontain.classList.add("main-info-contain");
             subimg.classList.add("main-news-img");
             sub.classList.add("main-news");
-        }, 10);
+        }, 1);
         console.log(mainnewstracker)
     }
     mainnewstracker=tracker;
