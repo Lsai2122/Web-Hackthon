@@ -28,6 +28,46 @@
     margin-top: -4px;
 }
 
+.admissions-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-left: 62%;
+    margin-top: -4px;
+}
+
+.placements-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-left: 73%;
+    margin-top: -4px;
+}
+
+.contact-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 150px;
+    margin-left: 82%;
+    margin-top: -4px;
+}
+
+.others-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 150px;
+    margin-left: 90%;
+    margin-top: -4px;
+}
+
 .about-button {
     background-color: rgb(201,200,200);
     border: none;
@@ -35,6 +75,7 @@
     border-bottom: 1px solid black;
     width: 125px;
     text-align: start;
+    cursor: pointer;
 }
 
 .department-button {
@@ -44,6 +85,7 @@
     border-bottom: 1px solid black;
     width: 175px;
     text-align: start;
+    cursor: pointer;
 }
 
 .students-button {
@@ -53,4 +95,45 @@
     border-bottom: 1px solid black;
     width: 175px;
     text-align: start;
+    cursor: pointer;
+}
+
+.admissions-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.placements-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.contact-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 150px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.others-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 150px;
+    text-align: start;
+    cursor: pointer;
 }

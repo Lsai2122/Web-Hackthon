@@ -6,6 +6,10 @@ count =0;
 let aboutPopup=document.querySelector('.about-popup');
 let departmentPopup=document.querySelector('.department-popup');
 let studentsPopup=document.querySelector('.students-popup');
+let admissionsPopup=document.querySelector('.admissions-popup');
+let placementsPopup=document.querySelector('.placements-popup');
+let contactPopup=document.querySelector('.contact-popup');
+let othersPopup=document.querySelector('.others-popup');
 document.querySelector('.about').addEventListener('click',()=> {
     const about=`
     <button class="about-button">Institute Profile</button>
@@ -23,6 +27,14 @@ document.querySelector('.about').addEventListener('click',()=> {
             departmentPopup.classList.remove('department-style');
             studentsPopup.innerHTML='';
             studentsPopup.classList.remove('stduents-style');
+            admissionsPopup.innerHTML='';
+            admissionsPopup.classList.remove('admissions-style');
+            placementsPopup.innerHTML='';
+            placementsPopup.classList.remove('placements-style');
+            contactPopup.innerHTML='';
+            contactPopup.classList.remove('contact-style');
+            othersPopup.innerHTML='';
+            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
@@ -50,6 +62,14 @@ document.querySelector('.department').addEventListener('click',()=> {
             aboutPopup.classList.remove('about-style');
             studentsPopup.innerHTML='';
             studentsPopup.classList.remove('stduents-style');
+            admissionsPopup.innerHTML='';
+            admissionsPopup.classList.remove('admissions-style');
+            placementsPopup.innerHTML='';
+            placementsPopup.classList.remove('placements-style');
+            contactPopup.innerHTML='';
+            contactPopup.classList.remove('contact-style');
+            othersPopup.innerHTML='';
+            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
@@ -79,11 +99,160 @@ document.querySelector('.students').addEventListener('click',()=> {
             aboutPopup.classList.remove('about-style');
             departmentPopup.innerHTML='';
             departmentPopup.classList.remove('department-style');
+            admissionsPopup.innerHTML='';
+            admissionsPopup.classList.remove('admissions-style');
+            placementsPopup.innerHTML='';
+            placementsPopup.classList.remove('placements-style');
+            contactPopup.innerHTML='';
+            contactPopup.classList.remove('contact-style');
+            othersPopup.innerHTML='';
+            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
         setTimeout(()=> {
             studentsPopup.innerHTML='';
+        },150)
+    }
+    
+});
+
+document.querySelector('.admissions').addEventListener('click',()=> {
+    const admissions=`
+    <button class="admissions-button">Undergraduate B Tech</button>
+    <button class="admissions-button">UG Academic Rule Book</button>
+    <button class="admissions-button">Postgraduate PG</button>
+    <button class="admissions-button">PG Academic Rule Book</button>
+    `;
+    if(admissionsPopup.innerHTML === '') {
+        setTimeout(()=> {
+            admissionsPopup.innerHTML=admissions;
+            admissionsPopup.classList.add('admissions-style');
+            aboutPopup.innerHTML='';
+            aboutPopup.classList.remove('about-style');
+            departmentPopup.innerHTML='';
+            departmentPopup.classList.remove('department-style');
+            studentsPopup.innerHTML='';
+            studentsPopup.classList.remove('students-style');
+            placementsPopup.innerHTML='';
+            placementsPopup.classList.remove('placements-style');
+            contactPopup.innerHTML='';
+            contactPopup.classList.remove('contact-style');
+            othersPopup.innerHTML='';
+            othersPopup.classList.remove('others-style');
+        },150)
+    }
+    else {
+        setTimeout(()=> {
+            admissionsPopup.innerHTML='';
+        },150)
+    }
+    
+});
+
+document.querySelector('.placements').addEventListener('click',()=> {
+    const placements=`
+    <button class="placements-button">Why IIIT Nagpur</button>
+    <button class="placements-button">For Students</button>
+    <button class="placements-button">For Companies</button>
+    <button class="placements-button">Contact T & P</button>
+    <button class="placements-button">Internships</button>
+    <button class="placements-button">Placements Statistics</button>
+    <button class="placements-button">About Us</button>
+    `;
+    if(placementsPopup.innerHTML === '') {
+        setTimeout(()=> {
+            placementsPopup.innerHTML=placements;
+            placementsPopup.classList.add('placements-style');
+            aboutPopup.innerHTML='';
+            aboutPopup.classList.remove('about-style');
+            departmentPopup.innerHTML='';
+            departmentPopup.classList.remove('department-style');
+            studentsPopup.innerHTML='';
+            studentsPopup.classList.remove('students-style');
+            admissionsPopup.innerHTML='';
+            admissionsPopup.classList.remove('admissions-style');
+            contactPopup.innerHTML='';
+            contactPopup.classList.remove('contact-style');
+            othersPopup.innerHTML='';
+            othersPopup.classList.remove('others-style');
+        },150)
+    }
+    else {
+        setTimeout(()=> {
+            placementsPopup.innerHTML='';
+        },150)
+    }
+    
+});
+
+document.querySelector('.contact').addEventListener('click',()=> {
+    const contact=`
+    <button class="contact-button">Why IIIT Nagpur</button>
+    <button class="contact-button">For Students</button>
+    <button class="contact-button">For Companies</button>
+    <button class="contact-button">Contact T & P</button>
+    <button class="contact-button">Internships</button>
+    <button class="contact-button">Placements Statistics</button>
+    <button class="contact-button">About Us</button>
+    `;
+    if(contactPopup.innerHTML === '') {
+        setTimeout(()=> {
+            contactPopup.innerHTML=contact;
+            contactPopup.classList.add('contact-style');
+            aboutPopup.innerHTML='';
+            aboutPopup.classList.remove('about-style');
+            departmentPopup.innerHTML='';
+            departmentPopup.classList.remove('department-style');
+            studentsPopup.innerHTML='';
+            studentsPopup.classList.remove('students-style');
+            admissionsPopup.innerHTML='';
+            admissionsPopup.classList.remove('admissions-style');
+            placementsPopup.innerHTML='';
+            placementsPopup.classList.remove('placements-style');
+            othersPopup.innerHTML='';
+            othersPopup.classList.remove('others-style');
+        },150)
+    }
+    else {
+        setTimeout(()=> {
+            contactPopup.innerHTML='';
+        },150)
+    }
+    
+});
+
+document.querySelector('.others').addEventListener('click',()=> {
+    const others=`
+    <button class="others-button">Consultancy</button>
+    <button class="others-button">Offical Documents</button>
+    <button class="others-button">Electoral Literacy Club</button>
+    <button class="others-button">Guest House</button>
+    <button class="others-button">Press Release</button>
+    <button class="others-button">Placements Statistics</button>
+    <button class="others-button">Institution Innovation Council</button>
+    `;
+    if(othersPopup.innerHTML === '') {
+        setTimeout(()=> {
+            othersPopup.innerHTML=others;
+            othersPopup.classList.add('others-style');
+            aboutPopup.innerHTML='';
+            aboutPopup.classList.remove('about-style');
+            departmentPopup.innerHTML='';
+            departmentPopup.classList.remove('department-style');
+            studentsPopup.innerHTML='';
+            studentsPopup.classList.remove('students-style');
+            admissionsPopup.innerHTML='';
+            admissionsPopup.classList.remove('admissions-style');
+            placementsPopup.innerHTML='';
+            placementsPopup.classList.remove('placements-style');
+            contactPopup.innerHTML='';
+            contactPopup.classList.remove('contact-style');
+        },150)
+    }
+    else {
+        setTimeout(()=> {
+            othersPopup.innerHTML='';
         },150)
     }
     
