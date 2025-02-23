@@ -147,3 +147,52 @@
 .bottom-border {
     border-bottom: none;
 }
+@media (max-width: 1500px) {
+    .about-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 125px;
+        margin-top: -32px;
+        margin-left: -300px;
+        border-radius: 12px;
+    }
+    .department-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 125px;
+        margin-top: -32px;
+        border-radius: 12px;
+    }
+    .students-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 125px;
+        margin-top: -32px;
+        margin-left: 32px;
+        border-radius: 12px;
+    }
+    .admissions-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 175px;
+        margin-top: -32px;
+        margin-left: 32px;
+    }
+    .placements-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 175px;
+        margin-top: -2px;
+        margin-left: -690px;
+    }
+}

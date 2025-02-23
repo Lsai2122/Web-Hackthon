@@ -128,7 +128,7 @@ document.querySelector('.placements').addEventListener('click', () => {
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/why-iiitn.html'">Why IIIT Nagpur</button>
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/for-students.html'">For Students</button>
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/for-companies.html'">For Companies</button>
-    <button class="placements-button">Contact T & P</button>
+    <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/train-place.html'">Contact T & P</button>
     <button class="placements-button">Internships</button>
     <button class="placements-button">Placements Statistics</button>
     <button class="placements-button bottom-border">About Us</button>
