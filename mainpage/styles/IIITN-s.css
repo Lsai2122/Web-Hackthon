@@ -352,10 +352,14 @@ html {
 }
 .action-move-left{
     animation: move-left 1s ease-in;
+    transform: translateX(-380px);
 }
 @keyframes move-left {
     from{
         transform: translateX(0);
+    }
+    to{
+        transform: translateX(-380px);
     }
 }
 .campus {
