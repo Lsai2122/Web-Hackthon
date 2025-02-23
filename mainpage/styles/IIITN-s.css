@@ -63,6 +63,10 @@ html {
 .sub-header {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+
 }
 
 .underline {
