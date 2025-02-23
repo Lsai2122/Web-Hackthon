@@ -430,6 +430,8 @@ function fullScreen() {
     </div>
     `;
     eventList.innerHTML=fullScreenEvent;
+
+    eventList.scrollIntoView({ behavior: "smooth", block: "end" });
 }
 
 function halfScreen() {
@@ -472,4 +474,6 @@ function halfScreen() {
         </div>
     `;
     eventList.innerHTML=halfScreenEvent;
+
+    eventList.scrollIntoView({ behavior: "smooth",block: "start" });
 }
