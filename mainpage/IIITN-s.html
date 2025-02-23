@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kotta+One&family=Merriweather+Sans&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
     <title>IIITN - Home Page</title>
 </head>
 
@@ -18,9 +19,8 @@
     <!--
     add gradient
     complete the text styles in headlines page
+    -->
 
--->
-    
     <div class="page-start">
         <header class="main-head">
             <div class="iiitn-logo">
@@ -94,12 +94,14 @@
     </div>
     <div class="maincontent headlines">
         <div class="head-lines">
-            <div class="news" onmouseenter="VerticalBarAnimation()" onmouseleave="VerticalBarAnimation()"><span>Head-Lines</span><span class="vertical-bar">&#124;</span></div>
+            <div class="news" onmouseenter="VerticalBarAnimation()" onmouseleave="VerticalBarAnimation()">
+                <span>Head-Lines</span><span class="vertical-bar">&#124;</span>
+            </div>
             <div class="news-container">
                 <div><img onclick="RightNext()" class="news-arrow-left" src="images/news-arrow-left.png "></div>
                 <div class="moving-container">
-                    <div class="left-news"  onmouseenter="SubTOMain('left')">
-                            <img class="left-news-img" src="images/side-news.png">
+                    <div class="left-news" onmouseenter="SubTOMain('left')">
+                        <img class="left-news-img" src="images/side-news.png">
                         <div class="left-info-contain">
                             <p class="left-info">
                                 Team Null pointer takes home the prize
@@ -113,307 +115,297 @@
                         </div>
                     </div>
                     <div class="right-news" onmouseenter="SubTOMain('right')">
-                            <img class="right-news-img" src="images/side-news.png">
+                        <img class="right-news-img" src="images/side-news.png">
                         <div class="right-info-contain">
                             <p class="right-info">
                                 Team Null pointer of IIIT Nagpur takes home the prize of Smart India Hackthon
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
-                </div>
-                <div><img onclick="RightNext()" class="news-arrow-right" src="images/news-arrow-right.png"></div>
             </div>
+            <div><img onclick="RightNext()" class="news-arrow-right" src="images/news-arrow-right.png"></div>
         </div>
     </div>
-        <div class="campus">
-            <div class="campus-heading">
-                <p>Campus Clicks</p>
-            </div>
-            <div class="campus-content">
-                <div class="stu-achieve">
-                    <button class="view-all">View all</button>
-                    <h1 class="stu-achieve-heading"><u>Student Achivements</u></h1>
-                    <div class="stu-achieve-list">
-                        <ul>
-                            <li class="1">
-                                Nishant Namdev, Himanshu Jain, Arvind Kumar Sinha, Mathematical model of the tumor
-                                cells' population growth, paper published on 29 November 2022 in Network Modeling
-                                Analysis in Health Informatics and Bioinformatics (Springer)
-                            </li>
-                            <li class="2">
-                                Dr. Mayur Parate and Dr. O. G. Kakde providing consultancy for the Design and
-                                Development of the "Electronic System for Nadi Pariksha" to Parijatak Ayurved Pvt. Ltd.
-                                Pune.
-                            </li>
-                            <li class="3">
-                                Dr. Charu Goel, Head & Assistant Professor, Department of Basic Sciences organised an
-                                International Webinar - Celebrating Women in Mathematics on 29th May 2021
-                            </li>
-                            <li class="4">
-                                Nishat Afshan Ansari, Umesh A. Deshpande, Anish Kelkar, "A novel technique for
-                                performing Tiger Census in a forest using Wireless Multimedia Sensor
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="campus-pulse">
-                    <div>
-                        <img src="images/campus-clicks.png">
-                    </div>
-                    <div>
-                        <img src="images/campus-clicks.png">
-                    </div>
-                    <div>
-                        <img src="images/campus-clicks.png">
-                    </div>
-                </div>
-                <div class="fac-achieve">
-                    <h1 class="fac-achieve-heading"><u>Faculty Achivements</u></h1>
-                    <button class="view-all">View all</button>
-                    <div class="fac-achieve-list">
-                        <ul>
-                            <li class="1">
-                                Nishant Namdev, Himanshu Jain, Arvind Kumar Sinha, Mathematical model of the tumor
-                                cells' population growth, paper published on 29 November 2022 in Network Modeling
-                                Analysis in Health Informatics and Bioinformatics (Springer)
-                            </li>
-                            <li class="2">
-                                Dr. Mayur Parate and Dr. O. G. Kakde providing consultancy for the Design and
-                                Development of the "Electronic System for Nadi Pariksha" to Parijatak Ayurved Pvt. Ltd.
-                                Pune.
-                            </li>
-                            <li class="3">
-                                Dr. Charu Goel, Head & Assistant Professor, Department of Basic Sciences organised an
-                                International Webinar - Celebrating Women in Mathematics on 29th May 2021
-                            </li>
-                            <li class="4">
-                                Nishat Afshan Ansari, Umesh A. Deshpande, Anish Kelkar, "A novel technique for
-                                performing Tiger Census in a forest using Wireless Multimedia Sensor
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    </div>
+    <div class="campus">
+        <div class="campus-heading">
+            <p>Campus Clicks</p>
         </div>
-        <div>
-            <h1 class="event-head">Events</h1>
-            <div class="event">
+        <div class="campus-content">
+            <div class="stu-achieve">
+                <button class="view-all">View all</button>
+                <h1 class="stu-achieve-heading"><u>Student Achivements</u></h1>
+                <div class="stu-achieve-list">
+                    <ul>
+                        <li class="1">
+                            Nishant Namdev, Himanshu Jain, Arvind Kumar Sinha, Mathematical model of the tumor
+                            cells' population growth, paper published on 29 November 2022 in Network Modeling
+                            Analysis in Health Informatics and Bioinformatics (Springer)
+                        </li>
+                        <li class="2">
+                            Dr. Mayur Parate and Dr. O. G. Kakde providing consultancy for the Design and
+                            Development of the "Electronic System for Nadi Pariksha" to Parijatak Ayurved Pvt. Ltd.
+                            Pune.
+                        </li>
+                        <li class="3">
+                            Dr. Charu Goel, Head & Assistant Professor, Department of Basic Sciences organised an
+                            International Webinar - Celebrating Women in Mathematics on 29th May 2021
+                        </li>
+                        <li class="4">
+                            Nishat Afshan Ansari, Umesh A. Deshpande, Anish Kelkar, "A novel technique for
+                            performing Tiger Census in a forest using Wireless Multimedia Sensor
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="campus-pulse">
                 <div>
-                    <div class="eve-1">
-                        <div class="eve-1-contain">
-                            <img src="images/event-image-1.png" alt="a">
-                            <div class="eve-1-text-contain-1">
-                                <p class="eve-1-text-1">Enterpreneurship with AI</p>
-                            </div>
-                            <div class="eve-1-text-contain-2">
-                                <p class="eve-1-text-2">22 JAN 2025, 16:30 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="eve-2_3">
-                        <div class="eve-2-contain">
-                            <img src="images/event-image-2.png">
-                            <div class="eve-2-text-contain-1">
-                                <p class="eve-2-text-1">Certification Course in python</p>
-                            </div>
-                            <div class="eve-2-text-contain-2">
-                                <p class="eve-2-text-2">26 JAN 2024, 17:00 </p>
-                            </div>
-                        </div>
-                        <div class="eve-3-contain">
-                            <img src="images/event-image-3.png">
-                            <div class="eve-3-text-contain-1">
-                                <p class="eve-3-text-1">Certification Course in python</p>
-                            </div>
-                            <div class="eve-3-text-contain-2">
-                                <p class="eve-3-text-2">26 JAN 2024, 17:00 </p>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="images/campus-clicks.png">
                 </div>
-                <div class="dd-arrow-contain full-event-list" onclick="fullScreen()">
-                    <img class="drop-down-arrow-dark" src="images/drop-down-arrow-dark.png">
+                <div>
+                    <img src="images/campus-clicks.png">
+                </div>
+                <div>
+                    <img src="images/campus-clicks.png">
+                </div>
+            </div>
+            <div class="fac-achieve">
+                <h1 class="fac-achieve-heading"><u>Faculty Achivements</u></h1>
+                <button class="view-all">View all</button>
+                <div class="fac-achieve-list">
+                    <ul>
+                        <li class="1">
+                            Nishant Namdev, Himanshu Jain, Arvind Kumar Sinha, Mathematical model of the tumor
+                            cells' population growth, paper published on 29 November 2022 in Network Modeling
+                            Analysis in Health Informatics and Bioinformatics (Springer)
+                        </li>
+                        <li class="2">
+                            Dr. Mayur Parate and Dr. O. G. Kakde providing consultancy for the Design and
+                            Development of the "Electronic System for Nadi Pariksha" to Parijatak Ayurved Pvt. Ltd.
+                            Pune.
+                        </li>
+                        <li class="3">
+                            Dr. Charu Goel, Head & Assistant Professor, Department of Basic Sciences organised an
+                            International Webinar - Celebrating Women in Mathematics on 29th May 2021
+                        </li>
+                        <li class="4">
+                            Nishat Afshan Ansari, Umesh A. Deshpande, Anish Kelkar, "A novel technique for
+                            performing Tiger Census in a forest using Wireless Multimedia Sensor
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!--Start from here-->
-        <div class="campuslife">
-            <h1>Campus Life</h1>
-            <div class="campuslife-row">
-                <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
-                    <h2>Campuslife</h2>
-                    <p>A Campus Full of Greenery 
-                        which provides delightness for the students</p>
-                </div>
-                <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
-                    <h2>Campuslife</h2>
-                    <p>A Campus Full of Greenery
-                        which provides delightness for the students</p>
-                </div>
-                <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
-                    <h2>Campuslife</h2>
-                    <p>A Campus Full of Greenery
-                        which provides delightness for the students</p>
-                </div>
-            </div>
-            <div class="campuslife-row">
-                <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
-                    <h2>Campuslife</h2>
-                    <p>A Campus Full of Greenery
-                        which provides delightness for the students</p>
-                </div>
-                <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
-                    <h2>Campuslife</h2>
-                    <p>A Campus Full of Greenery
-                        which provides delightness for the students</p>
-                </div>
-                <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
-                    <h2>Campuslife</h2>
-                    <p>A Campus Full of Greenery
-                        which provides delightness for the students</p>
-                </div>
-            </div>
-        </div>
-
-        <section class="research">
-            <h1>Research</h1>
-            <div class="rowone">
-                <div class="colone">
-                    <img src="images/research-1.png">
-                </div>
-                <div class="coltwo">
-                    <h2>Advancement In Research</h2>
-                    <p>IIITN Adminstration decided to improve the Research facilities even more to develop the interest of
-                        the students</p>
-                </div>
-            </div>
-            <div class="rowtwo">
-                <div class="colone">
-                    <h2>CIIMS X IIITN</h2>
-                    <p>IIITN Adminstration decided to improve the Research facilities even more to develop the interest of
-                        the students</p>
-                </div>
-                <div class="coltwo">
-                    <img src="images/research-2.png">
-                </div>
-            </div>
-        </section>
-
-        <section class="director">
-            <div class="director-row">
-                <div class="director-colone">
-                    <h2>Director of IIITN</h2>
-                    <img src="https://iiitn.ac.in/images/director.jpg" class="img-responsive img-thumbnail"
-                        alt="Dr. O. G. Kakde" />
-                    <h4 class=""><a href="#">Dr. Prem Lal Patel</a></h4>
-                </div>
-                <div class="director-coltwo">
-
-                    <p>A very warm greeting from Indian Institute of Information Technology, Nagpur.</p>
-
-                    <p>Professor Prem Lal Patel, Director, VNIT, Nagpur took over the additional charge as Director of
-                        IIIT, Nagpur on 1st October, 2024. He is Professor (HAG) of Hydraulics and Water Resources in
-                        Department of Civil Engineering, Sardar Vallabhbhai
-                        National Institute of Technology (SVNIT), Surat. He served as Deputy Director of the Institute
-                        (SVNIT) during Sept 17, 2019 to Sept. 16, 2022. He worked as Dean (PG), Dean (R &amp;C), Dean
-                        (Academic) and the Head, Dept. of Civil
-                        Engineering at SVNIT Surat. Prior to joining SVNIT in 2007, he served as Associate Professor,
-                        Civil Engineering Department in Delhi College of Engineering (now DTU) for eight years. Prior to
-                        working at DCE, he served as Assistant
-                        Executive Engineer (Civil) in Border Roads Organization (BRO), Ministry of Road Transport and
-                        Highways of India, Govt. of India from 1995-1999</p>
-
-                    <p>He did his Bachelors in Civil Engineering from Government Engineering College, Rewa, Madhya
-                        Pradesh, India and then, pursued his Master and Doctoral Degrees in Civil Engineering from
-                        Indian Institute of Technology Roorkee, India (the
-                        then University of Roorkee).
-
-                    </p>
-
-                </div>
-            </div>
-
-        </section>
-        <footer>
-            <div class="footer-top">
-                <div class="row">
-
-                    <div class="footer-col">
-                        <h5>Important Links</h5>
-                        <div class="important-links">
-                            <div class="imp-link"><a href="">Anti-Ragging Form</a></div>
-                            <hr>
-                            <div class="imp-link"><a href="">Equal Opportunity Cell</a></div>
-                            <hr>
-                            <div class="imp-link"><a href="">Networking Complaint</a></div>
-                            <hr>
-                            <div class="imp-link"><a href="">Right to Information</a></div>
-                            <hr>
-                            <div class="imp-link"><a href="">Privacy Policy</a></div>
-                            <hr>
-                            <div class="imp-link"><a href="">Feedback@IIITNagpur</a></div>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="footer-col">
-                        <h5>Quick Links</h5>
-                        <div class="quick-link">
-                            <div class="qui-links"><a href="">Online Fee Payment</a></div>
-                            <hr>
-                            <div class="qui-links"><a href="">Academic Calendar</a></div>
-                            <hr>
-                            <div class="qui-links"><a href="">Location</a></div>
-                            <hr>
-                            <div class="qui-links"><a href="">Guest House</a></div>
-                            <hr>
-
-                        </div>
-                    </div>
-
-                    <div class="footer-col">
-                        <h5>How to Reach us?</h5>
-                        <div class="contact-view">
-                            <div class="contact-slide">
-                                <p><i class="fa fa-location-arrow"></i>
-                                    Permanent Address: Survey No. 140,141/1 behind Br. Sheshrao Wankhade Shetkari
-                                    Sahkari Soot Girni, Village - Waranga, PO - Dongargaon(Butibori), Tahsil- Nagpur
-                                    (Rural), District Nagpur, Maharashtra- 441108</p>
-
-                            </div>
-                            <div class="contact">
-                                <p><i class="fa fa-envelope"></i><a href="">registrar@iiitn.ac.in</a></p>
-                            </div>
-                            <div class="contact">
-                                <p><i class="fa fa-phone"></i>9405215010</p>
-                            </div>
-
-
-                        </div>
-
-                        <div class="social-media">
-                            <div class="social"><a href="#"><i class="fa fa-facebook"></i>youtube</a></div>
-                            <div class="social"><a href="#"><i class="fa fa-twitter"></i>instagram</a></div>
-                            <div class="social"><a href="#"><i class="fa fa-instagram"></i>twitter</a></div>
-                            <div class="social"><a href="#"><i class="fa fa-youtube-play"></i>facebook</a></div>
-                            <div class="social"><a href="#"><i class="fa fa-linkedin">linkedin</i></a></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="footer-bottom">
-
-            </div>
-        </footer>
     </div>
+    <div>
+        <h1 class="event-head">Events</h1>
+        <div class="event">
+            <div>
+                <div class="eve-1">
+                    <div class="eve-1-contain">
+                        <img src="images/event-image-1.png" alt="a">
+                        <div class="eve-1-text-contain-1">
+                            <p class="eve-1-text-1">Enterpreneurship with AI</p>
+                        </div>
+                        <div class="eve-1-text-contain-2">
+                            <p class="eve-1-text-2">22 JAN 2025, 16:30 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="eve-2_3">
+                    <div class="eve-2-contain">
+                        <img src="images/event-image-2.png">
+                        <div class="eve-2-text-contain-1">
+                            <p class="eve-2-text-1">Certification Course in python</p>
+                        </div>
+                        <div class="eve-2-text-contain-2">
+                            <p class="eve-2-text-2">26 JAN 2024, 17:00 </p>
+                        </div>
+                    </div>
+                    <div class="eve-3-contain">
+                        <img src="images/event-image-3.png">
+                        <div class="eve-3-text-contain-1">
+                            <p class="eve-3-text-1">Certification Course in python</p>
+                        </div>
+                        <div class="eve-3-text-contain-2">
+                            <p class="eve-3-text-2">26 JAN 2024, 17:00 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dd-arrow-contain full-event-list" onclick="fullScreen()">
+                <img class="drop-down-arrow-dark" src="images/drop-down-arrow-dark.png">
+            </div>
+        </div>
+    </div>
+    <!--Start from here-->
+    <div class="campuslife">
+        <h1>Campus Life</h1>
+        <div class="campuslife-row">
+            <div class="camp-col">
+                <a href="#"><img src="images/campus-life.png"></a>
+                <h2>Campuslife</h2>
+                <p>A Campus Full of Greenery
+                    which provides delightness for the students</p>
+            </div>
+            <div class="camp-col">
+                <a href="#"><img src="images/campus-life.png"></a>
+                <h2>Campuslife</h2>
+                <p>A Campus Full of Greenery
+                    which provides delightness for the students</p>
+            </div>
+            <div class="camp-col">
+                <a href="#"><img src="images/campus-life.png"></a>
+                <h2>Campuslife</h2>
+                <p>A Campus Full of Greenery
+                    which provides delightness for the students</p>
+            </div>
+        </div>
+        <div class="campuslife-row">
+            <div class="camp-col">
+                <a href="#"><img src="images/campus-life.png"></a>
+                <h2>Campuslife</h2>
+                <p>A Campus Full of Greenery
+                    which provides delightness for the students</p>
+            </div>
+            <div class="camp-col">
+                <a href="#"><img src="images/campus-life.png"></a>
+                <h2>Campuslife</h2>
+                <p>A Campus Full of Greenery
+                    which provides delightness for the students</p>
+            </div>
+            <div class="camp-col">
+                <a href="#"><img src="images/campus-life.png"></a>
+                <h2>Campuslife</h2>
+                <p>A Campus Full of Greenery
+                    which provides delightness for the students</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="research">
+        <h1>Research</h1>
+        <div class="rowone">
+            <div class="colone">
+                <img src="images/research-1.png">
+            </div>
+            <div class="coltwo">
+                <h2>Advancement In Research</h2>
+                <p>IIITN Adminstration decided to improve the Research facilities even more to develop the interest of
+                    the students</p>
+            </div>
+        </div>
+        <div class="rowtwo">
+            <div class="colone">
+                <h2>CIIMS X IIITN</h2>
+                <p>IIITN Adminstration decided to improve the Research facilities even more to develop the interest of
+                    the students</p>
+            </div>
+            <div class="coltwo">
+                <img src="images/research-2.png">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="director-row">
+        <div>
+            <h1 class="director-colone"><u>IIITN DIRECTOR</u></h1>
+            <img src="images/Director.png" alt="IIITN DIRECTOR" style="width: 550px;margin-left: 10%; height: 550px;">
+            <p style="margin-left: 250px;font-family: Inria Sans, serif; font-size: 20px;">Dr.Prem Lal Patel</p>
+        </div>
+        <div class="director-coltwo">
+            <p>Professor Prem Lal Patel,the Director of VNIT Nagpur, also
+                took on the role of Director at IIIT Nagpur in October 2024. He
+                has a distinguished background in Civil Engineering,
+                specializing in Hydraulics and Water Resources. Before joining
+                SVNIT Surat in 2007, he severd at Delhi College of Engineering
+                and the Border Roads Organization.
+            </p>
+            <br>
+            <p>With degrees from Government Engineering College, Rewa
+                and IIT Roorke, Professor Patel's research covers river
+                mechanics, flood control, and climate change impacts on
+                Water systems,He has guided numerous theses and projects,
+                published over 260 papers, and is a member of several
+                technical societies. he has also set up a Centre of Excellence
+                on Water Resources & Flood Management at SVNIT with a
+                grant from the World Bank.</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="row">
+
+                <div class="footer-col">
+                    <h5>Important Links</h5>
+                    <div class="important-links">
+                        <div class="imp-link"><a href="#">Anti-Ragging Form</a></div>
+                        <hr>
+                        <div class="imp-link"><a href="#">Equal Opportunity Cell</a></div>
+                        <hr>
+                        <div class="imp-link"><a href="#">Networking Complaint</a></div>
+                        <hr>
+                        <div class="imp-link"><a href="#">Right to Information</a></div>
+                        <hr>
+                        <div class="imp-link"><a href="#">Privacy Policy</a></div>
+                        <hr>
+                        <div class="imp-link"><a href="#">Feedback@IIITNagpur</a></div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <div class="quick-link">
+                        <div class="qui-links"><a href="#">Online Fee Payment</a></div>
+                        <hr>
+                        <div class="qui-links"><a href="#">Academic Calendar</a></div>
+                        <hr>
+                        <div class="qui-links"><a href="#">Location</a></div>
+                        <hr>
+                        <div class="qui-links"><a href="#">Guest House</a></div>
+                        <hr>
+
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5>How to Reach us?</h5>
+                    <div class="contact-view">
+                        <div class="contact-slide">
+                            <p><i class="fa fa-location-arrow"></i>
+                                Permanent Address: Survey No. 140,141/1 behind Br. Sheshrao Wankhade Shetkari Sahkari
+                                Soot
+                                Girni, Village - Waranga, PO - Dongargaon(Butibori), Tahsil- Nagpur (Rural), District
+                                Nagpur, Maharashtra- 441108</p> <br>
+
+                        </div>
+                        <div class="contact">
+                            <p><i class="fa fa-envelope"></i><a href="mailto:registrar@iiitn.ac.in">registrar@iiitn.ac.in</a></p><br>
+                        </div>
+                        <div class="contact">
+                            <p><i class="fa fa-phone"></i>9405215010</p>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <div class="social"><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+                        <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                        <div class="social"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></div>
+                        <div class="social"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+                        <div class="social"><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+        </div>
+    </footer>
     <script src="script/mainpage.js"></script>
 </body>
 
