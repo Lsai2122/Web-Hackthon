@@ -356,3 +356,4 @@ function RightNext()
     }
     
 }
+document.querySelector(".moving-container").classList.add("action-move-left")
