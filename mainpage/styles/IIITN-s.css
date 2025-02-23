@@ -869,3 +869,8 @@ footer a{
 .qui-links::before{
     content: "\2022";
 }
+
+.img-1,.img-2,.img-3 {
+    width: 250px;
+    margin-top: 75px;
+}
