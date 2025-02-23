@@ -19,7 +19,7 @@
     complete the text styles in headlines page
 
 -->
-    
+    <script src="script/mainpage.js"></script>
     
     <div class="page-start">
         <header class="main-head">
@@ -73,10 +73,6 @@
             <div class="about-popup"></div>
             <div class="department-popup"></div>
             <div class="students-popup"></div>
-            <div class="admissions-popup"></div>
-            <div class="placements-popup"></div>
-            <div class="contact-popup"></div>
-            <div class="others-popup"></div>
         </header>
         <main>
             <div class="introduction" style="margin-top: 10%;">
@@ -95,7 +91,7 @@
         <div class="head-lines">
             <div class="news" onmouseenter="VerticalBarAnimation()" onmouseleave="VerticalBarAnimation()"><span>Head-Lines</span><span class="vertical-bar">&#124;</span></div>
             <div class="news-container">
-                <div><img class="news-arrow-left" src="images/news-arrow-left.png"></div>
+                <div class="news-arrow-left" onclick="LeftPrev()"></div>
                 <div class="left-news"  onmouseenter="SubTOMain('left')">
                         <img class="left-news-img" src="images/side-news.png">
                     <div class="left-info-contain">
@@ -118,7 +114,7 @@
                         </p>
                     </div>
                 </div>
-                <div><img class="news-arrow-right" src="images/news-arrow-right.png"></div>
+                <div><img class="news-arrow-right" onclick="RightNext()" src="images/news-arrow-right.png"></div>
             </div>
         </div>
         </div>
@@ -358,7 +354,6 @@
             </div>
         </footer>
     </div>
-    <script src="script/mainpage.js"></script>
 </body>
 
 </html>

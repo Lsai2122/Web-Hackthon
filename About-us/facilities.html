@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        .facilities h1 {
+            text-align: center;
+            text-shadow: 0px 3px 3px lightgray;
+            font-family: "Inria Sans", serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 32px;
+        }
+
+        .fac01,
+        .fac02 {
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+            justify-content: center;
+        }
+
+        .fac_elements {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 280px;
+            font-size: xx-large;
+            color: rgb(250, 250, 250);
+            background-color: hsla(0, 0%, 3%, 0.288);
+            border-radius: 8px;
+            font-family: "Inria Sans", serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 32px;
+        }
+
+        .fac_elements_images {
+            width: 400px;
+            height: 280px;
+            border-radius: 8px;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="facilities">
+        <h1> Facilities </h1>
+        <div class="fac01">
+            <div class="fac-1">
+                <a href="############">
+                    <div class="fac_elements"> Academics </div>
+                </a>
+                <img class="fac_elements_images" src="images/academics.png">
+            </div>
+            <div class="fac-2">
+                <a href="#############">
+                    <div class="fac_elements">Stays</div>
+                </a>
+                <img src="images/stays.png" class="fac_elements_images">
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="fac02">
+        <div class="fac-3"> <a href="#############">
+                <div class="fac_elements">Sports</div>
+            </a>
+            <img src="images/sports.png" class="fac_elements_images">
+        </div>
+        <div class="fac-4">
+            <a href="##############">
+                <div class="fac_elements">Event Venues</div>
+            </a>
+            <img src="images/event-venues.png" class="fac_elements_images">
+        </div>
+    </div>
+</body>
+
+</html>
