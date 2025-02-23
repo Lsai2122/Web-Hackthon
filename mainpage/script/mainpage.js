@@ -99,9 +99,9 @@ document.querySelector('.students').addEventListener('click', () => {
 
 document.querySelector('.admissions').addEventListener('click', () => {
     const admissions = `
-    <button class="admissions-button">Undergraduate B Tech</button>
+    <button class="admissions-button" onclick="window.location.href = window.location.origin + '/admissions/undergraduate.html'";>Undergraduate B Tech</button>
     <button class="admissions-button">UG Academic Rule Book</button>
-    <button class="admissions-button" onclick="window.location.href = window.location.origin + '/admissions-postgraduate/adm-post.html';">Postgraduate PG</button>
+    <button class="admissions-button" onclick="window.location.href = window.location.origin + '/admissions/adm-post.html';">Postgraduate PG</button>
     <button class="admissions-button bottom-border">PG Academic Rule Book</button>
     `;
     if (admissionsPopup.innerHTML === '') {
@@ -125,9 +125,9 @@ document.querySelector('.admissions').addEventListener('click', () => {
 
 document.querySelector('.placements').addEventListener('click', () => {
     const placements = `
-    <button class="placements-button">Why IIIT Nagpur</button>
-    <button class="placements-button">For Students</button>
-    <button class="placements-button">For Companies</button>
+    <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/why-iiitn.html'">Why IIIT Nagpur</button>
+    <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/for-students.html'">For Students</button>
+    <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/for-companies.html'">For Companies</button>
     <button class="placements-button">Contact T & P</button>
     <button class="placements-button">Internships</button>
     <button class="placements-button">Placements Statistics</button>
@@ -355,3 +355,78 @@ function RightNext() {
     }, 1000)
     
 }
+
+let fullEventList=document.querySelector('.event-fullscreen');
+document.querySelector('.full-event-list').addEventListener('click',()=> {
+    const event=`
+    <div>
+        <div class="eve-1">
+            <div class="eve-1-contain">
+                <img src="images/event image 1.png">
+                <div class="eve-1-text-contain-1">
+                    <p class="eve-1-text-1">Enterpreneurship with AI</p>
+                </div>
+                <div class="eve-1-text-contain-2">
+                    <p class="eve-1-text-2">22 JAN 2025, 16:30 </p>
+                </div>
+            </div>
+        </div>
+        <div class="eve-2_3">
+            <div class="eve-2-contain">
+                <img src="images/event image 2.png">
+                <div class="eve-2-text-contain-1">
+                    <p class="eve-2-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-2-text-contain-2">
+                    <p class="eve-2-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+            <div class="eve-3-contain">
+                <img src="images/event image 3.png">
+                <div class="eve-3-text-contain-1">
+                    <p class="eve-3-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-3-text-contain-2">
+                    <p class="eve-3-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="eve-2_3">
+            <div class="eve-2-contain">
+                <img src="images/event image 2.png">
+                <div class="eve-2-text-contain-1">
+                    <p class="eve-2-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-2-text-contain-2">
+                    <p class="eve-2-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+            <div class="eve-3-contain">
+                <img src="images/event image 3.png">
+                <div class="eve-3-text-contain-1">
+                    <p class="eve-3-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-3-text-contain-2">
+                    <p class="eve-3-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+        </div>
+        <div class="eve-1">
+            <div class="eve-1-contain">
+                <img src="images/event image 1.png">
+                <div class="eve-1-text-contain-1">
+                    <p class="eve-1-text-1">Enterpreneurship with AI</p>
+                </div>
+                <div class="eve-1-text-contain-2">
+                    <p class="eve-1-text-2">22 JAN 2025, 16:30 </p>
+                </div>
+            </div>
+        </div>
+        <div class="dd-arrow-contain full-event-list">
+            <img class="drop-down-arrow-dark" src="images/drop-down-arrow-dark.png">
+        </div>
+    </div>
+    `;
+    fullEventList.innerHTML=event;
+});
