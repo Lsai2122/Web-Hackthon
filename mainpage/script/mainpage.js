@@ -356,3 +356,78 @@ function RightNext() {
     }, 1000)
     
 }
+
+let fullEventList=document.querySelector('.event-fullscreen');
+document.querySelector('.full-event-list').addEventListener('click',()=> {
+    const event=`
+    <div>
+        <div class="eve-1">
+            <div class="eve-1-contain">
+                <img src="images/event image 1.png">
+                <div class="eve-1-text-contain-1">
+                    <p class="eve-1-text-1">Enterpreneurship with AI</p>
+                </div>
+                <div class="eve-1-text-contain-2">
+                    <p class="eve-1-text-2">22 JAN 2025, 16:30 </p>
+                </div>
+            </div>
+        </div>
+        <div class="eve-2_3">
+            <div class="eve-2-contain">
+                <img src="images/event image 2.png">
+                <div class="eve-2-text-contain-1">
+                    <p class="eve-2-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-2-text-contain-2">
+                    <p class="eve-2-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+            <div class="eve-3-contain">
+                <img src="images/event image 3.png">
+                <div class="eve-3-text-contain-1">
+                    <p class="eve-3-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-3-text-contain-2">
+                    <p class="eve-3-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="eve-2_3">
+            <div class="eve-2-contain">
+                <img src="images/event image 2.png">
+                <div class="eve-2-text-contain-1">
+                    <p class="eve-2-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-2-text-contain-2">
+                    <p class="eve-2-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+            <div class="eve-3-contain">
+                <img src="images/event image 3.png">
+                <div class="eve-3-text-contain-1">
+                    <p class="eve-3-text-1">Certification Course in python</p>
+                </div>
+                <div class="eve-3-text-contain-2">
+                    <p class="eve-3-text-2">26 JAN 2024, 17:00 </p>
+                </div>
+            </div>
+        </div>
+        <div class="eve-1">
+            <div class="eve-1-contain">
+                <img src="images/event image 1.png">
+                <div class="eve-1-text-contain-1">
+                    <p class="eve-1-text-1">Enterpreneurship with AI</p>
+                </div>
+                <div class="eve-1-text-contain-2">
+                    <p class="eve-1-text-2">22 JAN 2025, 16:30 </p>
+                </div>
+            </div>
+        </div>
+        <div class="dd-arrow-contain full-event-list">
+            <img class="drop-down-arrow-dark" src="images/drop-down-arrow-dark.png">
+        </div>
+    </div>
+    `;
+    fullEventList.innerHTML=event;
+});
