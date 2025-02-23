@@ -244,14 +244,13 @@ function SubTOMain(tracker) {
         }
         else {
             a = document.querySelector(".middle-news");
-            b = document.getElementById("middle-news")
-            if (window.getComputedStyle(b).marginLeft === "300px") {
+            if (window.getComputedStyle(a).marginLeft === "300px") {
                 a.classList.add("ml");
                 setTimeout(() => {
                     a.classList.remove("ml")
                 }, 250);
             }
-            else if (window.getComputedStyle(b).marginRight === "300px") {
+            else if (window.getComputedStyle(a).marginRight === "300px") {
                 a.classList.add("mr");
                 setTimeout(() => {
                     a.classList.remove("mr")
