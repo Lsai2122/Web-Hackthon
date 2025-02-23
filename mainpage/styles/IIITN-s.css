@@ -68,7 +68,9 @@ html {
     top: 100px;
 
 }
-
+.animate-dd-button {
+    cursor: pointer;
+}
 .underline {
     position: relative;
     text-decoration: none;
