@@ -12,11 +12,11 @@ let contactPopup=document.querySelector('.contact-popup');
 let othersPopup=document.querySelector('.others-popup');
 document.querySelector('.about').addEventListener('click',()=> {
     const about=`
-    <button class="about-button">Institute Profile</button>
-    <button class="about-button">Facilities</button>
-    <button class="about-button">MoU</button>
+    <button class="about-button" onclick="window.location.href = window.location.origin + '/About-us/institute-prof.html';">Institute Profile</button>
+    <button class="about-button" onclick="window.location.href = window.location.origin + '/About-us/facilities.html';">Facilities</button>
+    <button class="about-button" onclick="window.location.href = window.location.origin + '/About-us/MOU.html';">MoU</button>
     <button class="about-button">Act(PPP)</button>
-    <button class="about-button">Statute</button>
+    <button class="about-button" onclick="window.location.href = window.location.origin + '/About-us/statute.html';">Statute</button>
     <button class="about-button bottom-border">Annual Report</button>
     `;
     if(aboutPopup.innerHTML === '') {
@@ -101,7 +101,7 @@ document.querySelector('.admissions').addEventListener('click',()=> {
     const admissions=`
     <button class="admissions-button">Undergraduate B Tech</button>
     <button class="admissions-button">UG Academic Rule Book</button>
-    <button class="admissions-button" onclick="window.location.href = window.location.origin + '/Web-Hackthon/admissions-postgraduate/adm-post.html';">Postgraduate PG</button>
+    <button class="admissions-button" onclick="window.location.href = window.location.origin + '/admissions-postgraduate/adm-post.html';">Postgraduate PG</button>
     <button class="admissions-button bottom-border">PG Academic Rule Book</button>
     `;
     if(admissionsPopup.innerHTML === '') {
