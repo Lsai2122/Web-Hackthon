@@ -359,8 +359,11 @@ function RightNext() {
     
 }
 
-
+let moveHeadlines=document.querySelector('.headlines');
 let eventList=document.querySelector('.event');
+function moveToHeadlines() {
+    moveHeadlines.scrollIntoView({behavior: "smooth",block: "end"});
+}
 function fullScreen() {
     const fullScreenEvent=`
     <div>
