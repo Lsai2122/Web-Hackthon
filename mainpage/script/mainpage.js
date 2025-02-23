@@ -128,7 +128,7 @@ document.querySelector('.placements').addEventListener('click', () => {
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/why-iiitn.html'">Why IIIT Nagpur</button>
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/for-students.html'">For Students</button>
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/for-companies.html'">For Companies</button>
-    <button class="placements-button">Contact T & P</button>
+    <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/train-place.html'">Contact T & P</button>
     <button class="placements-button">Internships</button>
     <button class="placements-button">Placements Statistics</button>
     <button class="placements-button bottom-border">About Us</button>
@@ -362,7 +362,10 @@ function RightNext() {
 let moveHeadlines=document.querySelector('.headlines');
 let eventList=document.querySelector('.event');
 function moveToHeadlines() {
-    moveHeadlines.scrollIntoView({behavior: "smooth",block: "end"});
+    window.scrollTo({
+        top: 785,
+        behavior: "smooth"
+    });
 }
 function fullScreen() {
     const fullScreenEvent=`
@@ -482,3 +485,19 @@ function halfScreen() {
     eventList.innerHTML=halfScreenEvent;
     eventList.scrollIntoView({ behavior: "smooth",block: "start" });
 }
+
+list = ["../mainpage/images/photo-campus/IIIT12.jpg","../mainpage/images/photo-campus/IIIT11.jpg","../mainpage/images/photo-campus/IIIT15.jpg","../mainpage/images/photo-campus/IIIT17.jpg","../mainpage/images/photo-campus/IIIT19.jpg","../mainpage/images/photo-campus/IIIT21.jpg","../mainpage/images/photo-campus/IIIT22.jpg","../mainpage/images/photo-campus/IIIT26.jpg","../mainpage/images/photo-campus/IIIT28.jpg","../mainpage/images/photo-campus/IIIT29.jpg","../mainpage/images/photo-campus/IMG_20230927_103914.jpg","../mainpage/images/photo-campus/IMG_20230927_104539.jpg"];
+i=0;
+setInterval(() => {
+    setTimeout(()=>
+    {
+        document.querySelector(".img-1").setAttribute("src", list[i % 12])
+    },10);
+    setTimeout(()=> {
+        document.querySelector(".img-2").setAttribute("src", list[(i + 1 ) % 12])
+    },20);
+    setTimeout(()=> {
+        document.querySelector(".img-3").setAttribute("src", list[(i + 2 ) % 12]);
+    },30);
+    i++;
+},2000);
