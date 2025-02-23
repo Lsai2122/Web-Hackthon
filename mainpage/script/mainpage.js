@@ -356,8 +356,9 @@ function RightNext() {
     
 }
 
+
 let eventList=document.querySelector('.event');
-document.querySelector('.full-event-list').addEventListener('click',()=> {
+function fullScreen() {
     const fullScreenEvent=`
     <div>
         <div class="eve-1">
@@ -429,7 +430,7 @@ document.querySelector('.full-event-list').addEventListener('click',()=> {
     </div>
     `;
     eventList.innerHTML=fullScreenEvent;
-});
+}
 
 function halfScreen() {
     const halfScreenEvent=`
@@ -466,7 +467,7 @@ function halfScreen() {
                     </div>
                 </div>
             </div>
-            <div class="dd-arrow-contain full-event-list">
+            <div class="dd-arrow-contain full-event-list" onclick="fullScreen()">
                 <img class="drop-down-arrow-dark" src="images/drop-down-arrow-dark.png">
         </div>
     `;
