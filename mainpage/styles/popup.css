@@ -1,71 +1,76 @@
-.about-style {
+.about-popup {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 125px;
-    margin-left: 34%;
     margin-top: -4px;
+    margin-left: -5px;
+    border-radius: 12px;
 }
 
-.department-style {
+.department-popup {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 175px;
     margin-top: -4px;
-    margin-left: 42%;
+    margin-left: -12px;
 }
 
-.students-style {
+.students-popup {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 175px;
-    margin-left: 53%;
     margin-top: -4px;
+    margin-left: -15px;
 }
 
-.admissions-style {
+.admissions-popup {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 175px;
-    margin-left: 62%;
     margin-top: -4px;
+    margin-left: -25px;
 }
 
-.placements-style {
+.placements-popup {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 175px;
-    margin-left: 73%;
     margin-top: -4px;
+    margin-left: -12px;
 }
 
-.contact-style {
+.contact-popup {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 150px;
-    margin-left: 82%;
     margin-top: -4px;
+    margin-left: -22px;
 }
 
-.others-style {
+.others-popup {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 150px;
-    margin-left: 90%;
     margin-top: -4px;
+    margin-left: -45px;
+}
+.gap {
+    flex: 1;
+    width: 525px;
 }
 
 .about-button {
@@ -76,6 +81,7 @@
     width: 125px;
     text-align: start;
     cursor: pointer;
+    
 }
 
 .department-button {
@@ -136,4 +142,8 @@
     width: 150px;
     text-align: start;
     cursor: pointer;
+}
+
+.bottom-border {
+    border-bottom: none;
 }
