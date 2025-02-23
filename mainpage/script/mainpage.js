@@ -17,30 +17,23 @@ document.querySelector('.about').addEventListener('click',()=> {
     <button class="about-button">MoU</button>
     <button class="about-button">Act(PPP)</button>
     <button class="about-button">Statute</button>
-    <button class="about-button">Annual Report</button>
+    <button class="about-button bottom-border">Annual Report</button>
     `;
     if(aboutPopup.innerHTML === '') {
         setTimeout(()=> {
             aboutPopup.innerHTML=about;
-            aboutPopup.classList.add('about-style');
-            departmentPopup.innerHTML='';
-            departmentPopup.classList.remove('department-style');
+            departmentPopup.innerHTML='';      
             studentsPopup.innerHTML='';
-            studentsPopup.classList.remove('stduents-style');
             admissionsPopup.innerHTML='';
-            admissionsPopup.classList.remove('admissions-style');
             placementsPopup.innerHTML='';
-            placementsPopup.classList.remove('placements-style');
             contactPopup.innerHTML='';
-            contactPopup.classList.remove('contact-style');
             othersPopup.innerHTML='';
-            othersPopup.classList.remove('others-style');
-        },150)
+        },150);
     }
     else {
         setTimeout(()=> {
             aboutPopup.innerHTML='';
-        },150)
+        },150);
     }
     
 });
@@ -52,24 +45,18 @@ document.querySelector('.department').addEventListener('click',()=> {
     <button class="department-button">Electoral Literacy Club</button>
     <button class="department-button">Guest House</button>
     <button class="department-button">Press Release</button>
-    <button class="department-button">Instituion Innovation Council</button>
+    <button class="department-button bottom-border">Instituion Innovation Council</button>
     `;
     if(departmentPopup.innerHTML === '') {
         setTimeout(()=> {
             departmentPopup.innerHTML=department;
-            departmentPopup.classList.add('department-style');
+           
             aboutPopup.innerHTML='';
-            aboutPopup.classList.remove('about-style');
             studentsPopup.innerHTML='';
-            studentsPopup.classList.remove('stduents-style');
             admissionsPopup.innerHTML='';
-            admissionsPopup.classList.remove('admissions-style');
             placementsPopup.innerHTML='';
-            placementsPopup.classList.remove('placements-style');
             contactPopup.innerHTML='';
-            contactPopup.classList.remove('contact-style');
             othersPopup.innerHTML='';
-            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
@@ -89,24 +76,17 @@ document.querySelector('.students').addEventListener('click',()=> {
     <button class="students-button">Student Mess</button>
     <button class="students-button">Fees</button>
     <button class="students-button">Convocation</button>
-    <button class="students-button">Important Forms(Downloads)</button>
+    <button class="students-button bottom-border">Important Forms(Downloads)</button>
     `;
     if(studentsPopup.innerHTML === '') {
         setTimeout(()=> {
             studentsPopup.innerHTML=students;
-            studentsPopup.classList.add('students-style');
             aboutPopup.innerHTML='';
-            aboutPopup.classList.remove('about-style');
             departmentPopup.innerHTML='';
-            departmentPopup.classList.remove('department-style');
             admissionsPopup.innerHTML='';
-            admissionsPopup.classList.remove('admissions-style');
             placementsPopup.innerHTML='';
-            placementsPopup.classList.remove('placements-style');
             contactPopup.innerHTML='';
-            contactPopup.classList.remove('contact-style');
             othersPopup.innerHTML='';
-            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
@@ -121,25 +101,18 @@ document.querySelector('.admissions').addEventListener('click',()=> {
     const admissions=`
     <button class="admissions-button">Undergraduate B Tech</button>
     <button class="admissions-button">UG Academic Rule Book</button>
-    <button class="admissions-button">Postgraduate PG</button>
-    <button class="admissions-button">PG Academic Rule Book</button>
+    <button class="admissions-button" onclick="window.location.href = window.location.origin + '/Web-Hackthon/admissions-postgraduate/adm-post.html';">Postgraduate PG</button>
+    <button class="admissions-button bottom-border">PG Academic Rule Book</button>
     `;
     if(admissionsPopup.innerHTML === '') {
         setTimeout(()=> {
             admissionsPopup.innerHTML=admissions;
-            admissionsPopup.classList.add('admissions-style');
             aboutPopup.innerHTML='';
-            aboutPopup.classList.remove('about-style');
             departmentPopup.innerHTML='';
-            departmentPopup.classList.remove('department-style');
             studentsPopup.innerHTML='';
-            studentsPopup.classList.remove('students-style');
             placementsPopup.innerHTML='';
-            placementsPopup.classList.remove('placements-style');
             contactPopup.innerHTML='';
-            contactPopup.classList.remove('contact-style');
             othersPopup.innerHTML='';
-            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
@@ -158,24 +131,17 @@ document.querySelector('.placements').addEventListener('click',()=> {
     <button class="placements-button">Contact T & P</button>
     <button class="placements-button">Internships</button>
     <button class="placements-button">Placements Statistics</button>
-    <button class="placements-button">About Us</button>
+    <button class="placements-button bottom-border">About Us</button>
     `;
     if(placementsPopup.innerHTML === '') {
         setTimeout(()=> {
             placementsPopup.innerHTML=placements;
-            placementsPopup.classList.add('placements-style');
             aboutPopup.innerHTML='';
-            aboutPopup.classList.remove('about-style');
             departmentPopup.innerHTML='';
-            departmentPopup.classList.remove('department-style');
             studentsPopup.innerHTML='';
-            studentsPopup.classList.remove('students-style');
             admissionsPopup.innerHTML='';
-            admissionsPopup.classList.remove('admissions-style');
             contactPopup.innerHTML='';
-            contactPopup.classList.remove('contact-style');
             othersPopup.innerHTML='';
-            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
@@ -194,24 +160,17 @@ document.querySelector('.contact').addEventListener('click',()=> {
     <button class="contact-button">Contact T & P</button>
     <button class="contact-button">Internships</button>
     <button class="contact-button">Placements Statistics</button>
-    <button class="contact-button">About Us</button>
+    <button class="contact-button bottom-border">About Us</button>
     `;
     if(contactPopup.innerHTML === '') {
         setTimeout(()=> {
             contactPopup.innerHTML=contact;
-            contactPopup.classList.add('contact-style');
             aboutPopup.innerHTML='';
-            aboutPopup.classList.remove('about-style');
             departmentPopup.innerHTML='';
-            departmentPopup.classList.remove('department-style');
             studentsPopup.innerHTML='';
-            studentsPopup.classList.remove('students-style');
             admissionsPopup.innerHTML='';
-            admissionsPopup.classList.remove('admissions-style');
             placementsPopup.innerHTML='';
-            placementsPopup.classList.remove('placements-style');
             othersPopup.innerHTML='';
-            othersPopup.classList.remove('others-style');
         },150)
     }
     else {
@@ -230,24 +189,17 @@ document.querySelector('.others').addEventListener('click',()=> {
     <button class="others-button">Guest House</button>
     <button class="others-button">Press Release</button>
     <button class="others-button">Placements Statistics</button>
-    <button class="others-button">Institution Innovation Council</button>
+    <button class="others-button bottom-border">Institution Innovation Council</button>
     `;
     if(othersPopup.innerHTML === '') {
         setTimeout(()=> {
             othersPopup.innerHTML=others;
-            othersPopup.classList.add('others-style');
             aboutPopup.innerHTML='';
-            aboutPopup.classList.remove('about-style');
             departmentPopup.innerHTML='';
-            departmentPopup.classList.remove('department-style');
             studentsPopup.innerHTML='';
-            studentsPopup.classList.remove('students-style');
             admissionsPopup.innerHTML='';
-            admissionsPopup.classList.remove('admissions-style');
             placementsPopup.innerHTML='';
-            placementsPopup.classList.remove('placements-style');
             contactPopup.innerHTML='';
-            contactPopup.classList.remove('contact-style');
         },150)
     }
     else {
