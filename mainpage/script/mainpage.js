@@ -101,7 +101,7 @@ document.querySelector('.admissions').addEventListener('click',()=> {
     const admissions=`
     <button class="admissions-button">Undergraduate B Tech</button>
     <button class="admissions-button">UG Academic Rule Book</button>
-    <button class="admissions-button">Postgraduate PG</button>
+    <button class="admissions-button" onclick="window.location.href = window.location.origin + '/Web-Hackthon/admissions-postgraduate/adm-post.html';">Postgraduate PG</button>
     <button class="admissions-button bottom-border">PG Academic Rule Book</button>
     `;
     if(admissionsPopup.innerHTML === '') {
@@ -308,3 +308,4 @@ function RightNext()
     }
     
 }
+document.querySelector(".moving-container").classList.add("action-move-left")

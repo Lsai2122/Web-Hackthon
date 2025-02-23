@@ -186,7 +186,17 @@ html {
     height: 340px;
     position: relative;
 }
-
+.moving-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+    height: 340px;
+    position: relative;
+}
 .left-news,
 .middle-news,
 .right-news {
@@ -340,7 +350,14 @@ html {
     position: absolute;
     right: 0;
 }
-
+.action-move-left{
+    animation: move-left 1s ease-in;
+}
+@keyframes move-left {
+    from{
+        transform: translateX(0);
+    }
+}
 .campus {
     background-color: #E4E4E4;
     padding: 0% 0% 5% 0%;
