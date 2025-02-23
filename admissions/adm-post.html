@@ -192,6 +192,7 @@
             color: inherit;
         }
     </style>
+    <link rel="stylesheet" href="styles/popups.css">
 </head>
 
 <body>
@@ -223,7 +224,7 @@
             <div class="main-header">
                 <div>
                     <div class="header box-home">
-                        <div class="home">Home</div>
+                        <div class="home" onclick="window.location.href = window.location.origin + '/mainpage/IIITN-s.html'">Home</div>
                     </div>
                 </div>
                 <div>
@@ -263,6 +264,16 @@
                 </div>
             </div>
         </header>
+        <header class="sub-header">
+            <div class="gap"></div>
+            <div class="about-popup"></div>
+            <div class="department-popup"></div>
+            <div class="students-popup"></div>
+            <div class="admissions-popup"></div>
+            <div class="placements-popup"></div>
+            <div class="contact-popup"></div>
+            <div class="others-popup"></div>
+        </header>
     </div>
     <!--####Start From Here####-->
     <div class="heading-contain">
@@ -296,6 +307,7 @@
             </div>
         </div>
     </div>
+    <script src="script/aboutus-header.js"></script>
 </body>
 
 </html>
