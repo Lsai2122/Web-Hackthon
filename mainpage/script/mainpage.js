@@ -291,7 +291,8 @@ function RightNext() {
             Team Null Pointer of IIIT Nagpur takes home the prize of Smart India Hackathon
         </p>
     </div>`
-    count++;
+    setTimeout(()=>{
+        count++;
     if (count == 1) {
         document.querySelector(".news-arrow-left").innerHTML = "<img src='images/news-arrow-left.png'>"
     }
@@ -354,6 +355,8 @@ function RightNext() {
         
     }, 1000)
     
+    },1)
+    
 }
 
 let moveHeadlines=document.querySelector('.headlines');
@@ -366,7 +369,7 @@ function fullScreen() {
     <div>
         <div class="eve-1">
             <div class="eve-1-contain">
-                <img src="images/event image 1.png">
+                <img src="images/event-image-1.png">
                 <div class="eve-1-text-contain-1">
                     <p class="eve-1-text-1">Enterpreneurship with AI</p>
                 </div>
@@ -377,7 +380,7 @@ function fullScreen() {
         </div>
         <div class="eve-2_3">
             <div class="eve-2-contain">
-                <img src="images/event image 2.png">
+                <img src="images/event-image-2.png">
                 <div class="eve-2-text-contain-1">
                     <p class="eve-2-text-1">Certification Course in python</p>
                 </div>
@@ -386,7 +389,7 @@ function fullScreen() {
                 </div>
             </div>
             <div class="eve-3-contain">
-                <img src="images/event image 3.png">
+                <img src="images/event-image-3.png">
                 <div class="eve-3-text-contain-1">
                     <p class="eve-3-text-1">Certification Course in python</p>
                 </div>
@@ -398,7 +401,7 @@ function fullScreen() {
         <br>
         <div class="eve-2_3">
             <div class="eve-2-contain">
-                <img src="images/event image 2.png">
+                <img src="images/event-image-2.png">
                 <div class="eve-2-text-contain-1">
                     <p class="eve-2-text-1">Certification Course in python</p>
                 </div>
@@ -407,7 +410,7 @@ function fullScreen() {
                 </div>
             </div>
             <div class="eve-3-contain">
-                <img src="images/event image 3.png">
+                <img src="images/event-image-3.png">
                 <div class="eve-3-text-contain-1">
                     <p class="eve-3-text-1">Certification Course in python</p>
                 </div>
@@ -418,7 +421,7 @@ function fullScreen() {
         </div>
         <div class="eve-1">
             <div class="eve-1-contain">
-                <img src="images/event image 1.png">
+                <img src="images/event-image-1.png">
                 <div class="eve-1-text-contain-1">
                     <p class="eve-1-text-1">Enterpreneurship with AI</p>
                 </div>
@@ -428,7 +431,7 @@ function fullScreen() {
             </div>
         </div>
         <div class="dd-arrow-contain full-event-list" onclick="halfScreen()">
-            <img class="drop-down-arrow-dark" src="images/upper-arrow.png">
+            <img class="drop-down-arrow-dark" src="images/lift-up-arrow.png">
         </div>
     </div>
     `;
@@ -442,7 +445,7 @@ function halfScreen() {
         <div>
                 <div class="eve-1">
                     <div class="eve-1-contain">
-                        <img src="images/event image 1.png">
+                        <img src="images/event-image-1.png">
                         <div class="eve-1-text-contain-1">
                             <p class="eve-1-text-1">Enterpreneurship with AI</p>
                         </div>
@@ -453,7 +456,7 @@ function halfScreen() {
                 </div>
                 <div class="eve-2_3">
                     <div class="eve-2-contain">
-                        <img src="images/event image 2.png">
+                        <img src="images/event-image-2.png">
                         <div class="eve-2-text-contain-1">
                             <p class="eve-2-text-1">Certification Course in python</p>
                         </div>
@@ -462,7 +465,7 @@ function halfScreen() {
                         </div>
                     </div>
                     <div class="eve-3-contain">
-                        <img src="images/event image 3.png">
+                        <img src="images/event-image-3.png">
                         <div class="eve-3-text-contain-1">
                             <p class="eve-3-text-1">Certification Course in python</p>
                         </div>
@@ -477,6 +480,5 @@ function halfScreen() {
         </div>
     `;
     eventList.innerHTML=halfScreenEvent;
-
     eventList.scrollIntoView({ behavior: "smooth",block: "start" });
 }

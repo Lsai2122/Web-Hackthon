@@ -9,8 +9,8 @@ const server = http.createServer((req, res) => {
     if (filePath === "/" || filePath === "/index" || filePath === "/mainpage" || filePath === "/main") {
         filePath = "mainpage/IIITN-s.html";
     } else {
-        // Serve static files from the "public" folder
-        filePath = "mainpage" + filePath;
+        // Serve static files from the "mainpage" folder
+        filePath = path.join("mainpage", filePath);
     }
 
     // Get file extension
