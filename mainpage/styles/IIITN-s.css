@@ -63,6 +63,10 @@ html {
 .sub-header {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+
 }
 
 .underline {
@@ -182,10 +186,21 @@ html {
     height: 340px;
     position: relative;
 }
-
+.moving-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+    height: 340px;
+    position: relative;
+}
 .left-news,
 .middle-news,
-.right-news {
+.right-news,
+.inv-right-news {
     position: absolute;
     top: 5%;
     border: 1px solid black;
@@ -200,13 +215,18 @@ html {
 
 .left-news-img,
 .middle-news-img,
-.right-news-img {
+.right-news-img,
+.inv-right-img {
     border-radius: 6px;
     width: 316.987px;
     height: 195px;
     transition: width 0.25s ease-in,height 0.25s ease-in;
 }
+.inv-right-news{
+    right: -380px;
+    width: 316.997px;
 
+}
 .left-news {
     left: 3%;
     width: 316.997px;
@@ -224,7 +244,8 @@ html {
 
 .right-info,
 .middle-info,
-.left-info {
+.left-info,
+.inv-right-info {
     opacity: 1;
     display: inline-block;
     justify-content: center;
@@ -292,7 +313,7 @@ html {
     height: 339.6px;
     width: 600px;
     border: 1px solid black;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
 
@@ -325,18 +346,48 @@ html {
     opacity: 1;
 }
 .news-arrow-left {
+    top: 1095px;
     box-shadow: 0px 0.1px 5px rgba(0, 0, 0, 0.27);
     border-radius: 4px;
     position: absolute;
     left: 0;
+    z-index: 1;
+    top: 140%;
+    cursor: pointer;
 }
 .news-arrow-right {
+    top: 1095px;
     box-shadow: 0px 0.1px 5px rgba(0, 0, 0, 0.27);
     border-radius: 4px;
     position: absolute;
     right: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.action-move-right {
+    animation: move-right 1s ease-in;
 }
 
+@keyframes move-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(410px); /* Moving right */
+    }
+}
+
+.action-move-left{
+    animation: move-left 1s ease-in;
+}
+@keyframes move-left {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-410px);
+    }
+}
 .campus {
     background-color: #E4E4E4;
     padding: 0% 0% 5% 0%;
