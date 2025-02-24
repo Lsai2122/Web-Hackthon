@@ -68,7 +68,7 @@ document.querySelector('.department').addEventListener('click', () => {
 
 document.querySelector('.students').addEventListener('click', () => {
     const students = `
-    <button class="students-button">Students Achievements</button>
+    <button class="students-button" onclick="window.location.href = window.location.origin + '/students/students-ach.html'">Students Achievements</button>
     <button class="students-button">Activities</button>
     <button class="students-button">Scholarships</button>
     <button class="students-button">Student Counseller</button>
