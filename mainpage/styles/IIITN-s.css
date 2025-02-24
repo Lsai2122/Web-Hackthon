@@ -181,7 +181,7 @@ html {
     color: white;
     font-weight: 700;
     font-family: "Inria Sans","Serif";
-    font-size: 40px;
+    font-size: 35px;
     background-color: #4C40B4;
     padding: 10px 30px;
     border-radius: 10px;
@@ -217,7 +217,9 @@ html {
     background-color: #E4E4E4;
     padding: 0% 0% 5% 0%;
 }
+.
 .left-arrow{
+    z-index: 0;
     height: 15px;
     padding: 15px 7.5px;
     margin-left: -1px;
