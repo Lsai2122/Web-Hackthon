@@ -10,6 +10,8 @@ let admissionsPopup=document.querySelector('.admissions-popup');
 let placementsPopup=document.querySelector('.placements-popup');
 let contactPopup=document.querySelector('.contact-popup');
 let othersPopup=document.querySelector('.others-popup');
+
+let styleSheet=document.styleSheets[0];
 document.querySelector('.about').addEventListener('click',()=> {
     const about=`
     <button class="about-button" onclick="window.location.href = window.location.origin + '/About-us/institute-prof.html';">Institute Profile</button>
@@ -28,6 +30,14 @@ document.querySelector('.about').addEventListener('click',()=> {
             placementsPopup.innerHTML = '';
             contactPopup.innerHTML = '';
             othersPopup.innerHTML = '';
+            aboutPopup.classList.add('shadowlist');
+            departmentPopup.classList.remove('shadowlist');
+            studentsPopup.classList.remove('shadowlist');
+            admissionsPopup.classList.remove('shadowlist');
+            placementsPopup.classList.remove('shadowlist');
+            contactPopup.classList.remove('shadowlist');
+            othersPopup.classList.remove('shadowlist');
+            
         }, 150);
     }
     else {
@@ -44,7 +54,7 @@ document.querySelector('.department').addEventListener('click', () => {
     <button class="department-button">Electronics & communication Eng. (ECE)</button>
     <button class="department-button" onclick="window.location.href = window.location.origin + '/departments/bs.html';">Basic Sciences</button>
     <button class="department-button">Doctorial Programme</button>
-    <button class="department-button">Programs</button>
+    <button class="department-button bottom-border">Programs</button>
     `;
     if (departmentPopup.innerHTML === '') {
         setTimeout(() => {
@@ -56,6 +66,13 @@ document.querySelector('.department').addEventListener('click', () => {
             placementsPopup.innerHTML = '';
             contactPopup.innerHTML = '';
             othersPopup.innerHTML = '';
+            aboutPopup.classList.remove('shadowlist');
+            departmentPopup.classList.add('shadowlist');
+            studentsPopup.classList.remove('shadowlist');
+            admissionsPopup.classList.remove('shadowlist');
+            placementsPopup.classList.remove('shadowlist');
+            contactPopup.classList.remove('shadowlist');
+            othersPopup.classList.remove('shadowlist');
         }, 150)
     }
     else {
@@ -86,6 +103,13 @@ document.querySelector('.students').addEventListener('click', () => {
             placementsPopup.innerHTML = '';
             contactPopup.innerHTML = '';
             othersPopup.innerHTML = '';
+            aboutPopup.classList.remove('shadowlist');
+            departmentPopup.classList.remove('shadowlist');
+            studentsPopup.classList.add('shadowlist');
+            admissionsPopup.classList.remove('shadowlist');
+            placementsPopup.classList.remove('shadowlist');
+            contactPopup.classList.remove('shadowlist');
+            othersPopup.classList.remove('shadowlist');
         }, 150)
     }
     else {
@@ -112,6 +136,13 @@ document.querySelector('.admissions').addEventListener('click', () => {
             placementsPopup.innerHTML = '';
             contactPopup.innerHTML = '';
             othersPopup.innerHTML = '';
+            aboutPopup.classList.remove('shadowlist');
+            departmentPopup.classList.remove('shadowlist');
+            studentsPopup.classList.remove('shadowlist');
+            admissionsPopup.classList.add('shadowlist');
+            placementsPopup.classList.remove('shadowlist');
+            contactPopup.classList.remove('shadowlist');
+            othersPopup.classList.remove('shadowlist');
         }, 150)
     }
     else {
@@ -141,6 +172,13 @@ document.querySelector('.placements').addEventListener('click', () => {
             admissionsPopup.innerHTML = '';
             contactPopup.innerHTML = '';
             othersPopup.innerHTML = '';
+            aboutPopup.classList.remove('shadowlist');
+            departmentPopup.classList.remove('shadowlist');
+            studentsPopup.classList.remove('shadowlist');
+            admissionsPopup.classList.remove('shadowlist');
+            placementsPopup.classList.add('shadowlist');
+            contactPopup.classList.remove('shadowlist');
+            othersPopup.classList.remove('shadowlist');
         }, 150)
     }
     else {
@@ -172,6 +210,13 @@ document.querySelector('.others').addEventListener('click', () => {
             admissionsPopup.innerHTML = '';
             placementsPopup.innerHTML = '';
             contactPopup.innerHTML = '';
+            aboutPopup.classList.remove('shadowlist');
+            departmentPopup.classList.remove('shadowlist');
+            studentsPopup.classList.remove('shadowlist');
+            admissionsPopup.classList.remove('shadowlist');
+            placementsPopup.classList.remove('shadowlist');
+            contactPopup.classList.remove('shadowlist');
+            othersPopup.classList.add('shadowlist');
         }, 150)
     }
     else {
