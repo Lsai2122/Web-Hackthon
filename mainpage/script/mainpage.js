@@ -355,7 +355,7 @@ function fullScreen() {
         </div>
         <div class="eve-2_3">
             <div class="eve-2-contain">
-                <img src="images/event-image-2.png">
+                <img style="width: 460px;"  src="images/event5.jpg">
                 <div class="eve-2-text-contain-1">
                     <p class="eve-2-text-1">Certification Course in python</p>
                 </div>
@@ -364,7 +364,7 @@ function fullScreen() {
                 </div>
             </div>
             <div class="eve-3-contain">
-                <img src="images/event-image-3.png">
+                <img style="width: 460px;" src="images/event6.jpg">
                 <div class="eve-3-text-contain-1">
                     <p class="eve-3-text-1">Certification Course in python</p>
                 </div>
@@ -396,7 +396,7 @@ function fullScreen() {
         </div>
         <div class="eve-1">
             <div class="eve-1-contain">
-                <img src="images/event-image-1.png">
+                <img style="width: 460px;"  src="images/event4.jpg">
                 <div class="eve-1-text-contain-1">
                     <p class="eve-1-text-1">Enterpreneurship with AI</p>
                 </div>
