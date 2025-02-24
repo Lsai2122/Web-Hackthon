@@ -60,12 +60,18 @@ html {
     cursor: pointer;
 }
 
+@media screen and (orientation: portrait) {
+    body {
+        background-color: black;
+    }
+}
+
 .sub-header {
     display: flex;
     flex-direction: row;
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 128px;
 
 }
 
@@ -834,25 +840,34 @@ footer a {
     margin: 6px;
     font-size: 45px;
 }
-.img-1,.img-2,.img-3 {
+
+.img-1,
+.img-2,
+.img-3 {
     width: 250px;
     margin-top: 75px;
     margin-bottom: 0;
 }
+
 .clicks-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 @media (max-width: 1450px) {
     .clicks-grid {
         grid-template-columns: 1fr;
     }
-    .img-1,.img-2,.img-3 {
+
+    .img-1,
+    .img-2,
+    .img-3 {
         margin-left: 80px;
         margin-top: 0;
         margin-bottom: 0;
     }
 }
-.img-responsive{
+
+.img-responsive {
     width: 500px;
 }
