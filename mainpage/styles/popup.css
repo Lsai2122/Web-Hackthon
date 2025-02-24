@@ -7,6 +7,7 @@
     margin-top: -4px;
     margin-left: -5px;
     border-radius: 12px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .department-popup {
@@ -17,6 +18,7 @@
     width: 175px;
     margin-top: -4px;
     margin-left: -12px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .students-popup {
@@ -27,6 +29,7 @@
     width: 175px;
     margin-top: -4px;
     margin-left: -15px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .admissions-popup {
@@ -37,6 +40,7 @@
     width: 175px;
     margin-top: -4px;
     margin-left: -25px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .placements-popup {
@@ -47,6 +51,7 @@
     width: 175px;
     margin-top: -4px;
     margin-left: -12px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .contact-popup {
@@ -57,6 +62,7 @@
     width: 150px;
     margin-top: -4px;
     margin-left: -22px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .others-popup {
@@ -67,6 +73,7 @@
     width: 150px;
     margin-top: -4px;
     margin-left: -45px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 .gap {
     flex: 1;
