@@ -7,7 +7,6 @@
     margin-top: -4px;
     margin-left: -5px;
     border-radius: 12px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .department-popup {
@@ -18,7 +17,6 @@
     width: 175px;
     margin-top: -4px;
     margin-left: -12px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .students-popup {
@@ -28,7 +26,6 @@
     align-items: start;
     width: 175px;
     margin-top: -4px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
     margin-left: -15px;
 }
 
@@ -39,7 +36,6 @@
     align-items: start;
     width: 175px;
     margin-top: -4px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
     margin-left: -25px;
 }
 
@@ -51,7 +47,6 @@
     width: 175px;
     margin-top: -4px;
     margin-left: -12px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
 }
 
 .contact-popup {
@@ -61,7 +56,6 @@
     align-items: start;
     width: 150px;
     margin-top: -4px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
     margin-left: -22px;
 }
 
@@ -71,7 +65,6 @@
     justify-content: start;
     align-items: start;
     width: 150px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.516);
     margin-top: -4px;
     margin-left: -45px;
 }
