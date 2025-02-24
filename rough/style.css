@@ -1,0 +1,195 @@
+.why-iiit-nagpur {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.why-iiit-nagpur .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3624px;
+  position: relative;
+}
+
+.why-iiit-nagpur .text-wrapper {
+  position: absolute;
+  width: 796px;
+  top: 57px;
+  left: 23px;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 58px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.why-iiit-nagpur .image {
+  width: 1440px;
+  height: 637px;
+  top: 179px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.why-iiit-nagpur .overlap {
+  position: absolute;
+  width: 1179px;
+  height: 1919px;
+  top: 860px;
+  left: 122px;
+}
+
+.why-iiit-nagpur .IIIT-nagpur-stands {
+  position: absolute;
+  width: 1179px;
+  top: 74px;
+  left: 0;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.why-iiit-nagpur .frame {
+  width: 582px;
+  top: 0;
+  left: 8px;
+  position: absolute;
+  height: 75px;
+  background-color: #4c40b3;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.why-iiit-nagpur .overlap-group {
+  position: relative;
+  width: 607px;
+  height: 53px;
+  top: 4px;
+  left: -28px;
+}
+
+.why-iiit-nagpur .line {
+  position: absolute;
+  width: 3px;
+  height: 40px;
+  top: 12px;
+  left: 592px;
+}
+
+.why-iiit-nagpur .text-wrapper-2 {
+  position: absolute;
+  width: 607px;
+  top: 0;
+  left: 0;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.why-iiit-nagpur .overlap-wrapper {
+  width: 473px;
+  top: 533px;
+  left: 0;
+  position: absolute;
+  height: 75px;
+  background-color: #4c40b3;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.why-iiit-nagpur .overlap-2 {
+  position: relative;
+  width: 607px;
+  height: 53px;
+  top: 6px;
+  left: -84px;
+}
+
+.why-iiit-nagpur .img {
+  top: 8px;
+  left: 528px;
+  position: absolute;
+  width: 3px;
+  height: 40px;
+}
+
+.why-iiit-nagpur .overlap-group-wrapper {
+  width: 562px;
+  top: 972px;
+  left: 0;
+  position: absolute;
+  height: 75px;
+  background-color: #4c40b3;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.why-iiit-nagpur .overlap-3 {
+  position: relative;
+  width: 607px;
+  height: 53px;
+  top: 6px;
+  left: -45px;
+}
+
+.why-iiit-nagpur .line-2 {
+  top: 8px;
+  left: 580px;
+  position: absolute;
+  width: 3px;
+  height: 40px;
+}
+
+.why-iiit-nagpur .frame-2 {
+  width: 644px;
+  top: 1483px;
+  left: 0;
+  position: absolute;
+  height: 75px;
+  background-color: #4c40b3;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.why-iiit-nagpur .line-3 {
+  top: 12px;
+  left: 616px;
+  position: absolute;
+  width: 3px;
+  height: 40px;
+}
+
+.why-iiit-nagpur .events-and-industry {
+  position: absolute;
+  width: 607px;
+  top: 4px;
+  left: -4px;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.why-iiit-nagpur .image-2 {
+  width: 1432px;
+  height: 798px;
+  top: 2826px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
