@@ -1,0 +1,176 @@
+.header-1 {
+    background-color: #000814;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25% 1%;
+}
+
+.tags {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    display: flex;
+    gap: 15px;
+    padding: 0.7% 0%;
+}
+
+.tags a {
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    height: min-content;
+    vertical-align: top;
+}
+
+.main-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #B0C4B1;
+}
+
+.iiitn-logo {
+    flex: 3;
+    height: 60px;
+}
+
+.main_logo {
+    aspect-ratio: 321.997/310;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35px;
+    padding: 1.5% 0;
+}
+
+.header {
+    border: none;
+    color: black;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: min-content;
+    padding: 0 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.box-home {
+    border-left: none;
+    box-sizing: border-box;
+}
+
+.box-others {
+    border-right: none;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #0655a5;
+    padding: 30px 0;
+}
+
+footer .row {
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    bottom: 0;
+    display: flex;
+    position: relative;
+}
+
+.footer-col {
+    padding: 10px;
+    flex-basis: 31%;
+    margin: 15px;
+}
+
+footer h5 {
+    margin: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    font-family: "Inria Sans", serif;
+    color: white;
+}
+
+.footer-col p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col hr {
+    margin-left: 20px;
+    border-color: rgba(0, 0, 0, 0.6);
+    width: 60%;
+}
+
+.social-media {
+    display: flex;
+    position: absolute;
+    bottom: 55px;
+    right: 30px;
+}
+
+.social {
+    margin: 8px;
+}
+
+.imp-link {
+    padding: 10px 10px 10px 20px;
+    margin: 10px 7px 5px;
+    font-size: 20px;
+    font-family: "Inria Sans", serif;
+}
+
+.imp-link::before {
+    margin: 5px;
+    font-size: 35px;
+    content: "\2022";
+}
+
+.qui-links {
+    padding: 10px 10px 10px 20px;
+    margin: 10px 7px 5px;
+    font-size: 20px;
+    font-family: "Inria Sans", serif;
+}
+
+.qui-links::before {
+    margin: 5px;
+    font-size: 35px;
+    content: "\2022";
+}
+
+.contact {
+    font-family: "Strait", serif;
+}
+
+.contact-slide p {
+    font-size: 15px;
+    font-family: "Strait", serif;
+    font-family: "Inria Sans", serif;
+}
+
+.social-media i {
+    margin: 6px;
+    font-size: 45px;
+}

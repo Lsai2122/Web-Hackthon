@@ -148,6 +148,9 @@ document.querySelector('.placements').addEventListener('click', () => {
 
 
 
+
+
+
 document.querySelector('.others').addEventListener('click', () => {
     const others = `
     <button class="others-button">Consultancy</button>

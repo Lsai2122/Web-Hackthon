@@ -1,0 +1,206 @@
+.about-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 125px;
+    margin-top: -4px;
+    margin-left: -5px;
+    border-radius: 12px;
+}
+
+.department-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-top: -4px;
+    margin-left: -12px;
+}
+
+.students-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-top: -4px;
+    margin-left: -15px;
+}
+
+.admissions-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-top: -4px;
+    margin-left: -25px;
+}
+
+.placements-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 175px;
+    margin-top: -4px;
+    margin-left: -12px;
+}
+
+.contact-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 150px;
+    margin-top: -4px;
+    margin-left: -22px;
+}
+
+.others-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 150px;
+    margin-top: -4px;
+    margin-left: -45px;
+}
+.gap {
+    flex: 1;
+    width: 525px;
+}
+
+.about-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 125px;
+    text-align: start;
+    cursor: pointer;
+    
+}
+
+.department-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.students-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.admissions-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.placements-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 175px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.contact-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 150px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.others-button {
+    background-color: rgb(201,200,200);
+    border: none;
+    padding: 8px 0 5px 6px;
+    border-bottom: 1px solid black;
+    width: 150px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.bottom-border {
+    border-bottom: none;
+}
+@media (max-width: 1500px) {
+    .about-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 125px;
+        margin-top: -32px;
+        margin-left: -300px;
+        border-radius: 12px;
+    }
+    .department-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 125px;
+        margin-top: -32px;
+        border-radius: 12px;
+    }
+    .students-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 125px;
+        margin-top: -32px;
+        margin-left: 32px;
+        border-radius: 12px;
+    }
+    .admissions-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 175px;
+        margin-top: -32px;
+        margin-left: 32px;
+    }
+    .placements-popup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 175px;
+        margin-top: -2px;
+        margin-left: -690px;
+    }
+}
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+
+}
