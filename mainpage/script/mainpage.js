@@ -130,7 +130,7 @@ document.querySelector('.placements').addEventListener('click', () => {
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/for-companies.html'">For Companies</button>
     <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/train-place.html'">Contact T & P</button>
     <button class="placements-button">Internships</button>
-    <button class="placements-button">Placements Statistics</button>
+    <button class="placements-button" onclick="window.location.href = window.location.origin + '/Placements/placement-statistics.html'">Placements Statistics</button>
     <button class="placements-button bottom-border">About Us</button>
     `;
     if (placementsPopup.innerHTML === '') {
