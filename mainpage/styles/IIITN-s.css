@@ -376,7 +376,7 @@ html {
     position: absolute;
     left: 0;
     z-index: 1;
-    top: 140%;
+    top: 125px;
     cursor: pointer;
 }
 
@@ -923,17 +923,19 @@ nav img {
 .director-colone {
     margin: 10px;
     margin-left: 200px;
-    font-family: "Kadwa", serif;
+    font-family: "Inria Sans", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .director-coltwo {
-    margin-left: 120px;
+    margin-left: 10px;
     padding-top: 60px;
     padding-right: 10px;
-    font-size: xx-large;
+    font-size: 20px;
+    font-weight: bold;
     font-family: "Inria Sans", serif;
 }
 
@@ -997,8 +999,8 @@ footer a {
 }
 
 .imp-link {
-    padding: 10px 10px 10px 20px;
-    margin: 10px 7px 5px;
+    padding: 5px 5px 5px 10px;
+    margin: 3px 7px 5px;
     font-size: 20px;
     font-family: "Inria Sans", serif;
 }
@@ -1054,4 +1056,7 @@ footer a {
         margin-top: 0;
         margin-bottom: 0;
     }
+}
+.img-responsive{
+    width: 500px;
 }
