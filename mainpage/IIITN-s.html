@@ -96,7 +96,7 @@
         <div class="head-lines">
             <div class="news" onmouseenter="VerticalBarAnimation()" onmouseleave="VerticalBarAnimation()"><span>Head-Lines</span><span class="vertical-bar">&#124;</span></div>
             <div class="news-container">
-                <div><img onclick="RightNext()" class="news-arrow-left" src="images/news-arrow-left.png "></div>
+                <div onclick="LeftPrev()" class="news-arrow-left"></div>
                 <div class="moving-container">
                     <div class="left-news"  onmouseenter="SubTOMain('left')">
                             <img class="left-news-img" src="images/side-news.png">
@@ -133,7 +133,7 @@
             </div>
             <div class="campus-content">
                 <div class="stu-achieve">
-                    <button class="view-all">View all</button>
+                    <button class="view-all" onclick="window.location.href = window.location.origin + '/students/students-ach.html'">View all</button>
                     <h1 class="stu-achieve-heading"><u>Student Achivements</u></h1>
                     <div class="stu-achieve-list">
                         <ul>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="fac-achieve">
                     <h1 class="fac-achieve-heading"><u>Faculty Achivements</u></h1>
-                    <button class="view-all">View all</button>
+                    <button class="view-all" onclick="window.location.href = window.location.origin + '/students/students-ach.html'">View all</button>
                     <div class="fac-achieve-list">
                         <ul>
                             <li class="1">
@@ -243,19 +243,19 @@
             <h1>Campus Life</h1>
             <div class="campuslife-row">
                 <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
+                    <a href="#"><img src="images/photo-campus/gym.jpg"></a>
                     <h2>Campuslife</h2>
                     <p>A Campus Full of Greenery 
                         which provides delightness for the students</p>
                 </div>
                 <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
+                    <a href="#"><img src="images/photo-campus/bat.jpg"></a>
                     <h2>Campuslife</h2>
                     <p>A Campus Full of Greenery
                         which provides delightness for the students</p>
                 </div>
                 <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
+                    <a href="#"><img src="images/photo-campus/yoga.jpg"></a>
                     <h2>Campuslife</h2>
                     <p>A Campus Full of Greenery
                         which provides delightness for the students</p>
@@ -263,19 +263,19 @@
             </div>
             <div class="campuslife-row">
                 <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
+                    <a href="#"><img src="images/photo-campus/water.jpg"></a>
                     <h2>Campuslife</h2>
                     <p>A Campus Full of Greenery
                         which provides delightness for the students</p>
                 </div>
                 <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
+                    <a href="#"><img src="images/photo-campus/ground.jpg"></a>
                     <h2>Campuslife</h2>
                     <p>A Campus Full of Greenery
                         which provides delightness for the students</p>
                 </div>
                 <div class="camp-col">
-                    <a href="#"><img src="images/campus-life.png"></a>
+                    <a href="#"><img src="images/photo-campus/party.jpg"></a>
                     <h2>Campuslife</h2>
                     <p>A Campus Full of Greenery
                         which provides delightness for the students</p>
@@ -313,7 +313,6 @@
                     <h2>Director of IIITN</h2>
                     <img src="https://iiitn.ac.in/images/director.jpg" class="img-responsive img-thumbnail"
                         alt="Dr. O. G. Kakde" />
-                    <h4 class=""><a href="#">Dr. Prem Lal Patel</a></h4>
                 </div>
                 <div class="director-coltwo">
 
