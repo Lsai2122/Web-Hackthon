@@ -37,10 +37,9 @@ document.querySelector('.department').addEventListener('click', () => {
     const department = `
     <button class="department-button">Computer Science & Eng. (CSE)</button>
     <button class="department-button">Electronics & communication Eng. (ECE)</button>
-    <button class="department-button">Electoral Literacy Club</button>
-    <button class="department-button">Guest House</button>
-    <button class="department-button">Press Release</button>
-    <button class="department-button bottom-border">Instituion Innovation Council</button>
+    <button class="department-button" onclick="window.location.href = window.location.origin + '/departments/bs.html';">Basic Sciences</button>
+    <button class="department-button">Doctorial Programme</button>
+    <button class="department-button">Programs</button>
     `;
     if (departmentPopup.innerHTML === '') {
         setTimeout(() => {
@@ -63,8 +62,8 @@ document.querySelector('.department').addEventListener('click', () => {
 
 document.querySelector('.students').addEventListener('click', () => {
     const students = `
-    <button class="students-button" onclick="window.location.href = window.location.origin + '/students/students-ach.html'">Students Achievements</button>
-    <button class="students-button">Activities</button>
+    <button class="students-button" onclick="window.location.href = window.location.origin + '/students/students-ach.html';">Students Achievements</button>
+    <button class="students-button" onclick="window.location.href = window.location.origin + '/students/activites.html';">Activities</button>
     <button class="students-button">Scholarships</button>
     <button class="students-button">Student Counseller</button>
     <button class="students-button">Hostel</button>
@@ -147,34 +146,10 @@ document.querySelector('.placements').addEventListener('click', () => {
 
 });
 
-document.querySelector('.contact').addEventListener('click', () => {
-    const contact = `
-    <button class="contact-button">Why IIIT Nagpur</button>
-    <button class="contact-button">For Students</button>
-    <button class="contact-button">For Companies</button>
-    <button class="contact-button">Contact T & P</button>
-    <button class="contact-button">Internships</button>
-    <button class="contact-button">Placements Statistics</button>
-    <button class="contact-button bottom-border">About Us</button>
-    `;
-    if (contactPopup.innerHTML === '') {
-        setTimeout(() => {
-            contactPopup.innerHTML = contact;
-            aboutPopup.innerHTML = '';
-            departmentPopup.innerHTML = '';
-            studentsPopup.innerHTML = '';
-            admissionsPopup.innerHTML = '';
-            placementsPopup.innerHTML = '';
-            othersPopup.innerHTML = '';
-        }, 150)
-    }
-    else {
-        setTimeout(() => {
-            contactPopup.innerHTML = '';
-        }, 150)
-    }
 
-});
+
+
+
 
 document.querySelector('.others').addEventListener('click', () => {
     const others = `
