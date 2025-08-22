@@ -6,7 +6,7 @@ Web hackthon to create website for IIIT Nagpur
 
 Members:
 
-  1)Nerella Leela Venkata Sai - Allrounder(Figma,html,css,js,nodejs,mongodb)
+  1)Nerella Leela Venkata Sai - Allrounder(Figma,html,css,js)
   
   2)Rucharla Ramana - Designer(Figma)
   
